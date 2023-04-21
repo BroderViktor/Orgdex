@@ -9,7 +9,7 @@ from langchain.chains.base import Chain
 
 from typing import Dict, List
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 class ConcatenateChain(Chain):
     chain_1: LLMChain

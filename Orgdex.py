@@ -16,8 +16,9 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
+from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
@@ -43,6 +44,16 @@ elif (i == '2'):
 
     db.add_documents(docs)
 
+elif (i == '3'):
+    db = Chroma(persist_directory="webloader", embedding_function=embedding)
+
+    path = input("Skriv en fil path du vil legge til: ")
+    loader = TextLoader(path)
+    documents = loader.load()
+    text_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=20)
+    docs = text_splitter.split_documents(documents)
+    db.add_documents(docs)
+
 else:
     new_path = input("Name for new index store")
 
@@ -61,17 +72,20 @@ else:
     docs = text_splitter.split_documents(documents)
     db = Chroma.from_documents(docs, embedding, persist_directory=new_path)
 
-prompt_template = """You are a helpful assistant, informing potentiall customers on the advantages of orgbrain 
-If you don't know the answer, just say that you don't know, don't try to make up an answer.
-Use the following pieces of context to answer the question at the end. 
-
-Relevant data: {context}
+prompt_template = """
+You are a helpful assistant, informing potentiall customers on the advantages of orgbrain, 
+if you don't know the answer to the question, just say that you don't know, don't try to make up an answer, 
+Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question
+and preferably add a conclusion to the end of the answer. 
 
 Previous interactions: {history}
 
+Relevant data: {context}
+
 Question: {question}
 
-Answer in the same language that the question was asked in:"""
+Always answer in the same language that the question was asked in:
+"""
 PROMPT = PromptTemplate(
     template=prompt_template, input_variables=["context", "history", "question"]
 )
@@ -79,21 +93,29 @@ PROMPT = PromptTemplate(
 chain = LLMChain(llm=openai, prompt=PROMPT)
 
 memorydata = ConversationBufferWindowMemory(k=3)
-while True:
-    query = input("Query: ")
-    topicdata = db.similarity_search(query, k=2)
+with get_openai_callback() as cb:
+    while True:
 
-    result = chain.run({"context": topicdata, "history": memorydata.chat_memory, "question": query})
-    #qa_chain = load_qa_chain(openai, chain_type="stuff")
-    #qa = AnalyzeDocumentChain(combine_docs_chain=qa_chain, prompt=PROMPT, verbose=True)
-    #qa = load_qa_chain(llm, chain_type="stuff", prompt=PROMPT)
-    #result = qa({"question": query, "chat_history": chat_history})
-    #result = qa.run({"input_documents": topicdata, "question": query}, return_only_outputs=True)
+            query = input("Query: ")
+            topicdata = db.similarity_search(query, k=3)
+            #print(topicdata)
+            result = chain.run({"context": topicdata, "history": memorydata.chat_memory, "question": query})
+            
+            memorydata.chat_memory.add_user_message(query)
+            memorydata.chat_memory.add_ai_message(result)
 
-    memorydata.chat_memory.add_user_message(query)
-    memorydata.chat_memory.add_ai_message(result)
+            print(result)
+            print(f"Total Tokens: {cb.total_tokens}")
+            usdPricing = (cb.total_tokens / 1000) * 0.02
+            print(f"Total Cost (NOK): kr {round(usdPricing * 10.59, 4)}")
 
-    print(result)
+            #qa_chain = load_qa_chain(openai, chain_type="stuff")
+            #qa = AnalyzeDocumentChain(combine_docs_chain=qa_chain, prompt=PROMPT, verbose=True)
+            #qa = load_qa_chain(llm, chain_type="stuff", prompt=PROMPT)
+            #result = qa({"question": query, "chat_history": chat_history})
+            #result = qa.run({"input_documents": topicdata, "question": query}, return_only_outputs=True)
+
+
 
 # topicdata = db.similarity_search(query, k=3)
 

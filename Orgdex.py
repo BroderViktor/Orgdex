@@ -18,18 +18,21 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
 
-i = input("To Load Existing Index Store, enter 1, to add to existing store enter 2 ")
-if (i == "1"):
-    db = Chroma(persist_directory="webloader", embedding_function=embedding)
+chunksize = 100
+chunkoverlap = 5
 
-elif (i == '2'):
-    db = Chroma(persist_directory="webloader", embedding_function=embedding)
-    
+db = 0
+
+
+def LoadIndex(inIndex):
+    return Chroma(persist_directory=inIndex, embedding_function=embedding)
+
+def AddUrlPaths():
     webPaths = []
     url = 0
     while url != "1":
@@ -39,39 +42,17 @@ elif (i == '2'):
 
     loader = WebBaseLoader(webPaths)
     documents = loader.load()
-    text_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=20)
-    docs = text_splitter.split_documents(documents)
+    text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
+    return text_splitter.split_documents(documents)
 
-    db.add_documents(docs)
-
-elif (i == '3'):
-    db = Chroma(persist_directory="webloader", embedding_function=embedding)
-
+def AddFilePath():
     path = input("Skriv en fil path du vil legge til: ")
     loader = TextLoader(path)
     documents = loader.load()
-    text_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=20)
-    docs = text_splitter.split_documents(documents)
-    db.add_documents(docs)
+    text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
+    return text_splitter.split_documents(documents)
 
-else:
-    new_path = input("Name for new index store")
-
-    webPaths = []
-    url = 0
-    while url != "1":
-        url = input("Skriv url eller '1' for avslutte")
-        if (url == "1"): continue
-        webPaths.append(url)
-    
-    print(webPaths)
-
-    loader = WebBaseLoader(webPaths)
-    documents = loader.load()
-    text_splitter = TokenTextSplitter(chunk_size=500, chunk_overlap=20)
-    docs = text_splitter.split_documents(documents)
-    db = Chroma.from_documents(docs, embedding, persist_directory=new_path)
-
+#Defines the chain that will answer questions
 prompt_template = """
 You are a helpful assistant, informing potentiall customers on the advantages of orgbrain, 
 if you don't know the answer to the question, just say that you don't know, don't try to make up an answer, 
@@ -89,40 +70,76 @@ Always answer in the same language that the question was asked in:
 PROMPT = PromptTemplate(
     template=prompt_template, input_variables=["context", "history", "question"]
 )
-
 chain = LLMChain(llm=openai, prompt=PROMPT)
-
+#Adds memory to the conversation
 memorydata = ConversationBufferWindowMemory(k=3)
-with get_openai_callback() as cb:
-    while True:
 
+#Query the llm
+def RunQuery(query, index, mem, cb, totalTokenCost):
+    topicdata = index.similarity_search(query, k=4)
+    result = chain.run({"context": topicdata, "history": mem.chat_memory, "question": query})
+    
+    mem.chat_memory.add_user_message(query)
+    mem.chat_memory.add_ai_message(result)
+
+    if (not cb): return result
+
+    usdCost = ((cb.total_tokens - totalTokenCost) / 1000) * 0.02
+    print(f"Kostnad for spørsmål (NOK): kr {round(usdCost * 10.59, 4)}")
+
+    usdCost = (cb.total_tokens / 1000) * 0.02
+    print(f"Antall tokens i samtale: {cb.total_tokens}")
+    print(f"Total kostnad for samtale (NOK): kr {round(usdCost * 10.59, 4)}")
+
+    return result
+
+#Normal QA setup
+def QA():
+    with get_openai_callback() as cb:
+        totalTokenCost = 0
+        while True:
             query = input("Query: ")
-            topicdata = db.similarity_search(query, k=3)
-            #print(topicdata)
-            result = chain.run({"context": topicdata, "history": memorydata.chat_memory, "question": query})
-            
-            memorydata.chat_memory.add_user_message(query)
-            memorydata.chat_memory.add_ai_message(result)
+            answer = RunQuery(query=query, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost)
+            print(answer)
+            totalTokenCost = cb.total_tokens
 
-            print(result)
-            print(f"Total Tokens: {cb.total_tokens}")
-            usdPricing = (cb.total_tokens / 1000) * 0.02
-            print(f"Total Cost (NOK): kr {round(usdPricing * 10.59, 4)}")
+#Test to check answer quality and costs
+def StandardTest():
+    with get_openai_callback() as cb:
+        totalTokenCost = 0
+        questions = open("TestQuestions", "r").read().split("\n")
+        testResult = ""
+        for question in questions:
+            testResult += question + "\n"
+            testResult += RunQuery(query=question, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost) + "\n"
+            totalTokenCost = cb.total_tokens
+        
+        usdcost = (cb.total_tokens / 1000) * 0.02
+        cost = f"Antall tokens i samtale: {cb.total_tokens}, dette kostet total (NOK): kr {round(usdcost * 10.59, 4)}"
+        testResult += cost
+        result = open("TestResult", "w")
+        result.write(testResult)
 
-            #qa_chain = load_qa_chain(openai, chain_type="stuff")
-            #qa = AnalyzeDocumentChain(combine_docs_chain=qa_chain, prompt=PROMPT, verbose=True)
-            #qa = load_qa_chain(llm, chain_type="stuff", prompt=PROMPT)
-            #result = qa({"question": query, "chat_history": chat_history})
-            #result = qa.run({"input_documents": topicdata, "question": query}, return_only_outputs=True)
 
+index = "chunksize100"
 
+i = input("To Load Existing Index Store and start QA enter 1, to change indexstore enter 2, to create new enter 3, to test index enter 4")
 
-# topicdata = db.similarity_search(query, k=3)
-
-# qa_chain = load_qa_chain(llm, chain_type="map_reduce")
-# qa_document_chain = AnalyzeDocumentChain(combine_docs_chain=qa_chain, verbose=True)
-
-# combinedData = topicdata[0].page_content + topicdata[1].page_content + topicdata[2].page_content
-
-# respons = qa_document_chain.run(input_document=combinedData, question=query)
-# print("Respons: " + respons)
+if (i == "1"):
+    db = LoadIndex(index)
+    QA()
+elif (i == '2'):
+    db = LoadIndex(index)
+    if (input("Enter 1 to add weburls") == '1'):
+        docs = AddUrlPaths()
+    else:
+        docs = AddFilePath()
+    
+    db.add_documents(docs)
+elif (i == '3'):
+    new_path = input("Name for new index store")
+    docs = AddUrlPaths()
+    db = Chroma.from_documents(docs, embedding, persist_directory=new_path)
+elif (i =='4'):
+    db = LoadIndex(index)
+    StandardTest()

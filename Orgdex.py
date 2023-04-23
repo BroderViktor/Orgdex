@@ -152,7 +152,7 @@ elif (i == '2'):
     db.add_documents(docs)
 elif (i == '3'):
     new_path = input("Name for new index store")
-    docs = AddUrlPathsFromFile("Urls")
+    docs = AddUrlPathsFromFile("Urls.txt")
     db = Chroma.from_documents(docs, embedding, persist_directory=new_path)
 elif (i =='4'):
     db = LoadIndex(index)

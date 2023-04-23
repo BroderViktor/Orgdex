@@ -18,13 +18,13 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
 
-chunksize = 100
-chunkoverlap = 5
+chunksize = 250
+chunkoverlap = 25
 
 db = 0
 
@@ -45,6 +45,15 @@ def AddUrlPaths():
     text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
     return text_splitter.split_documents(documents)
 
+def AddUrlPathsFromFile(file):
+    webPaths = open(file, "r").read().split("\n")
+
+    loader = WebBaseLoader(webPaths)
+    documents = loader.load()
+
+    text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
+    return text_splitter.split_documents(documents)
+
 def AddFilePath():
     path = input("Skriv en fil path du vil legge til: ")
     loader = TextLoader(path)
@@ -55,16 +64,19 @@ def AddFilePath():
 #Defines the chain that will answer questions
 prompt_template = """
 You are a helpful assistant, informing potentiall customers on the advantages of orgbrain, 
-if you don't know the answer to the question, just say that you don't know, don't try to make up an answer, 
-Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question
-and preferably add a conclusion to the end of the answer. 
+Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question.
 
-Previous interactions: {history}
+Previous interactions: 
+{history}
 
-Relevant data: {context}
+Relevant topic data: 
+{context}
 
-Question: {question}
+Question: 
+{question}
 
+If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
+If you use any context data from the web, rembember to cite it with a url, if its from another source you do not need to cite it.
 Always answer in the same language that the question was asked in:
 """
 PROMPT = PromptTemplate(
@@ -72,15 +84,17 @@ PROMPT = PromptTemplate(
 )
 chain = LLMChain(llm=openai, prompt=PROMPT)
 #Adds memory to the conversation
-memorydata = ConversationBufferWindowMemory(k=3)
-
+memorydata = ConversationBufferWindowMemory(k=2)
 #Query the llm
 def RunQuery(query, index, mem, cb, totalTokenCost):
     topicdata = index.similarity_search(query, k=4)
-    result = chain.run({"context": topicdata, "history": mem.chat_memory, "question": query})
     
-    mem.chat_memory.add_user_message(query)
-    mem.chat_memory.add_ai_message(result)
+    print(topicdata)
+    print(mem.load_memory_variables({}))
+
+    result = chain.run({"context": topicdata, "history": mem.load_memory_variables({}), "question": query})
+    
+    mem.save_context({"User input": query}, {"AI answer": result})
 
     if (not cb): return result
 
@@ -117,11 +131,11 @@ def StandardTest():
         usdcost = (cb.total_tokens / 1000) * 0.02
         cost = f"Antall tokens i samtale: {cb.total_tokens}, dette kostet total (NOK): kr {round(usdcost * 10.59, 4)}"
         testResult += cost
-        result = open("TestResult", "w")
+        result = open("testresultater " + index, "w")
         result.write(testResult)
 
 
-index = "chunksize100"
+index = "StandardIndex 250 25"
 
 i = input("To Load Existing Index Store and start QA enter 1, to change indexstore enter 2, to create new enter 3, to test index enter 4")
 
@@ -138,7 +152,7 @@ elif (i == '2'):
     db.add_documents(docs)
 elif (i == '3'):
     new_path = input("Name for new index store")
-    docs = AddUrlPaths()
+    docs = AddUrlPathsFromFile("Urls")
     db = Chroma.from_documents(docs, embedding, persist_directory=new_path)
 elif (i =='4'):
     db = LoadIndex(index)

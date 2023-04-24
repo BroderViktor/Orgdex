@@ -11,8 +11,8 @@ from langchain.embeddings import OpenAIEmbeddings
 import re
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "69911fd8ba9979187619dc927d588f926fa37f9e88113abb23fe8ab047c4adac"
+os.environ["OPENAI_API_KEY"] = "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"
+os.environ["SERPAPI_API_KEY"] = "b7a188d3356b5839e4702806655a1c7eef82b141f3e4e6f75bb21977c0a9b70a"
 llm = OpenAI(temperature=0)
 embedding = OpenAIEmbeddings()
 
@@ -40,12 +40,12 @@ tools = [
     Tool(
         name = "Search memory",
         func = searchIndex,
-        description = "to get specific information about orgbrain"
+        description = "Get specific information about orgbrain"
     ),
     Tool(
         name = "Search web",
         func=search.run,
-        description="to get general information"
+        description="Get general information"
     ),
 ]
 
@@ -131,6 +131,6 @@ agent = LLMSingleActionAgent(
 )
 agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools, verbose=True)
 with get_openai_callback() as cb:
-    agent_executor.run("har orgbrain mer enn 1000 kunder?")
+    agent_executor.run("hva er orgbrain?")
     usdCost = ((cb.total_tokens) / 1000) * 0.02
     print(f"Kostnad for spørsmål (NOK): kr {round(usdCost * 10.59, 4)}")

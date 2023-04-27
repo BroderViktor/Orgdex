@@ -18,13 +18,13 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
 
-chunksize = 250
-chunkoverlap = 25
+chunksize = 50
+chunkoverlap = 5
 
 db = 0
 
@@ -135,7 +135,7 @@ def StandardTest():
         result.write(testResult)
 
 
-index = "StandardIndex 50 5"
+index = "LargeIndex"
 
 i = input("To Load Existing Index Store and start QA enter 1, to change indexstore enter 2, to create new enter 3, to test index enter 4")
 

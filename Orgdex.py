@@ -18,7 +18,7 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
@@ -131,7 +131,7 @@ def StandardTest():
         usdcost = (cb.total_tokens / 1000) * 0.02
         cost = f"Antall tokens i samtale: {cb.total_tokens}, dette kostet total (NOK): kr {round(usdcost * 10.59, 4)}"
         testResult += cost
-        result = open("testresultater " + index, "w")
+        result = open("Test Results " + index, "w")
         result.write(testResult)
 
 

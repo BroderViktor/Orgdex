@@ -1,0 +1,18 @@
+[
+Document(page_content='prosessen er over.Book en personlig demoDu får svar på alle dine spørsmålFÅ DEMOPrøv Orgbrain gratis i 14 dager
+    Finn ut om Orgbrain er riktig løsningKOM I GANGORGBRAIN PASSER FOR "ALLE" STYREROrgbrain kan benyttes for en rekke roller, 
+    oppgaver, foretak', metadata={'source': 'https://orgbrain.no/'}), 
+
+Document(page_content='.”Espen FyksenStyremedlem, Brand Foods AS“Orgbrain hjelper deg å få orden på styrearbeidet 
+ditt.”Harald SævareidDaglig leder, Nivel“Et godt program til å få struktur, samt lette møtevirksomhet og ikke minst gi 
+ut info', metadata={'source': 'https://orgbrain.no/'}), 
+
+Document(page_content='iske retning. 
+Ved å å benytte de smarte og digitale løsningene til Orgbrain, kan styret bidra til at foretaket er godt posisjonert 
+for suksess i fremtiden.Hva skjer under et møte?Under et styremøteFor å gi et bilde av hva Orgbrain hjelper styret med, 
+gir vi et kort', metadata={'source': 'https://orgbrain.no/programvare'}), 
+
+Document(page_content='alforsamlingFor å gi et
+ bilde av hva Orgbrain hjelper et styre\xa0 med, gir vi et kort eksempel på en typisk arbeidsflyt ved bruk av Orgbrain 
+ under en generalforsamling:Generalforsamlingen kan avholdes som fysisk møte og/eller som et digitalt møte på video, 
+ med Orgbr', metadata={'source': 'https://orgbrain.no/programvare'})]

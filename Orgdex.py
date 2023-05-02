@@ -18,13 +18,13 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
 
-chunksize = 50
-chunkoverlap = 5
+chunksize = 60
+chunkoverlap = 10
 
 db = 0
 
@@ -50,6 +50,8 @@ def AddUrlPathsFromFile(file):
 
     loader = WebBaseLoader(webPaths)
     documents = loader.load()
+    for doc in documents:
+        doc.page_content = doc.page_content.replace("\n", "")
 
     text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
     return text_splitter.split_documents(documents)
@@ -66,7 +68,7 @@ prompt_template = """
 You are a helpful assistant, informing potentiall customers on the advantages of orgbrain, 
 Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question.
 
-Previous interactions: 
+Previous interactions, only use this if its relevant to the question: 
 {history}
 
 Relevant topic data: 
@@ -87,10 +89,11 @@ chain = LLMChain(llm=openai, prompt=PROMPT)
 memorydata = ConversationBufferWindowMemory(k=2)
 #Query the llm
 def RunQuery(query, index, mem, cb, totalTokenCost):
-    topicdata = index.similarity_search(query, k=4)
-    
-    print(topicdata)
-    print(mem.load_memory_variables({}))
+    topicdata = index.similarity_search(query, k=6)
+
+
+    topicOut = open("topic.txt", "w", encoding="utf-8")
+    topicOut.write(str(topicdata))
 
     result = chain.run({"context": topicdata, "history": mem.load_memory_variables({}), "question": query})
     
@@ -135,7 +138,7 @@ def StandardTest():
         result.write(testResult)
 
 
-index = "LargeIndex"
+index = "FormatedDocs6010"
 
 i = input("To Load Existing Index Store and start QA enter 1, to change indexstore enter 2, to create new enter 3, to test index enter 4")
 

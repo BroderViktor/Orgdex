@@ -18,13 +18,14 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
 
-chunksize = 60
-chunkoverlap = 10
+chunksize = 250
+chunkoverlap = 25
+kNodes = 3
 
 db = 0
 
@@ -88,8 +89,8 @@ chain = LLMChain(llm=openai, prompt=PROMPT)
 #Adds memory to the conversation
 memorydata = ConversationBufferWindowMemory(k=2)
 #Query the llm
-def RunQuery(query, index, mem, cb, totalTokenCost):
-    topicdata = index.similarity_search(query, k=6)
+def RunQuery(query, index, mem, cb, totalTokenCost, k):
+    topicdata = index.similarity_search(query, k)
 
 
     topicOut = open("topic.txt", "w", encoding="utf-8")
@@ -116,29 +117,32 @@ def QA():
         totalTokenCost = 0
         while True:
             query = input("Query: ")
-            answer = RunQuery(query=query, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost)
+            answer = RunQuery(query=query, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost, k=kNodes)
             print(answer)
             totalTokenCost = cb.total_tokens
 
 #Test to check answer quality and costs
 def StandardTest():
     with get_openai_callback() as cb:
+        
+
         totalTokenCost = 0
         questions = open("TestQuestions", "r").read().split("\n")
+
         testResult = ""
         for question in questions:
             testResult += question + "\n"
-            testResult += RunQuery(query=question, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost) + "\n"
+            testResult += RunQuery(query=question, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost, k=kNodes) + "\n"
             totalTokenCost = cb.total_tokens
         
         usdcost = (cb.total_tokens / 1000) * 0.02
         cost = f"Antall tokens i samtale: {cb.total_tokens}, dette kostet total (NOK): kr {round(usdcost * 10.59, 4)}"
         testResult += cost
-        result = open("Test Results " + index, "w")
+        result = open("Test Results " + index + " nodes " + str(kNodes), "w")
         result.write(testResult)
 
 
-index = "FormatedDocs6010"
+index = "FormatedDocs25025"
 
 i = input("To Load Existing Index Store and start QA enter 1, to change indexstore enter 2, to create new enter 3, to test index enter 4")
 

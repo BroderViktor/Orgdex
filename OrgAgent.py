@@ -8,49 +8,68 @@ from langchain.tools import BaseTool
 from langchain.callbacks import get_openai_callback
 from langchain.vectorstores import Chroma
 from langchain.embeddings import OpenAIEmbeddings
+from langchain.utilities import GoogleSearchAPIWrapper
+from langchain.memory import ConversationBufferMemory
 import re
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "b7a188d3356b5839e4702806655a1c7eef82b141f3e4e6f75bb21977c0a9b70a"
+keys = open("Keys.txt", "r").read().split("\n")
+os.environ["OPENAI_API_KEY"] = keys[0]
+os.environ["GOOGLE_CSE_ID"] = keys[1]
+os.environ["GOOGLE_API_KEY"] = keys[2]
+cse_id = keys[1]
+api_key = keys[2]
+
+#os.environ["SERPAPI_API_KEY"] = "b7a188d3356b5839e4702806655a1c7eef82b141f3e4e6f75bb21977c0a9b70a"
 llm = OpenAI(temperature=0)
 embedding = OpenAIEmbeddings()
 
-index = Chroma(persist_directory="chunksize100", embedding_function=embedding)
+index = Chroma(persist_directory="FormatedDocs25025", embedding_function=embedding)
 
 # Define which tools the agent can use to answer user queries
-search = SerpAPIWrapper()
+search = GoogleSearchAPIWrapper(k=3)
 
-class IndexSearch(BaseTool):
-    name = "Search Orgbrain database"
-    description = "useful for when you need to answer questions about orgbrain"
 
-    def _run(self, query: str) -> str:
-        """Use the tool."""
-        return "Orgbrain er et selskap som jobber med selskaper for å øke produktiviteten av styrearbeidet, noen annsatte er dag asheim og thomas evensen, de har over 1000 kunder"
-    
-    async def _arun(self, query: str) -> str:
-        """Use the tool asynchronously."""
-        raise NotImplementedError("does not support async")
+
+from googleapiclient.discovery import build
+def google_search(search_term, **kwargs):
+    service = build("customsearch", "v1", developerKey=api_key)
+    res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
+    return res['items']
+
+def google_search_parser(search, kNum = 3):
+    search_results = google_search(search, num=kNum)
+    parsed_results = []
+    for res in search_results:
+        #print(res)
+        parsed_results.append(res["title"] + ": " + res["snippet"])
+
+    return format(parsed_results)
+
+#print(google_search_parser("kunder orgbrain"))
 
 def searchIndex(query):
-    return index.similarity_search(query, k=4)
+    return index.similarity_search(query, k=2)
 
-tools = [
+#tools = load_tools(["google-search"])
+tools=[]
+
+tools.extend([
     Tool(
         name = "Search memory",
         func = searchIndex,
-        description = "Get specific information about orgbrain"
+        description = "Get specific information about orgbrain, input should be a series of norwegian keywords"
     ),
     Tool(
-        name = "Search web",
-        func=search.run,
-        description="Get general information"
+        name = "Google Search",
+        func = google_search_parser,
+        description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query in norwegian."
     ),
-]
+
+])
 
 # Set up the base template
-template = """Answer the following questions as best you can. You have access to the following tools:
+template = """You are an Agent for customers of orgbrain.no, answer the following questions as best you can. You have access to the following tools:
 
 {tools}
 
@@ -62,10 +81,14 @@ Action: the action to take, should be one of [{tool_names}]
 Action Input: the input to the action
 Observation: the result of the action
 ... (this Thought/Action/Action Input/Observation can repeat N times)
+
 Thought: I now know the final answer
 Final Answer: the final answer to the original input question
 
+{chat_history}
+
 Question: {input}
+
 {agent_scratchpad}
 """
 
@@ -107,7 +130,8 @@ class CustomOutputParser(AgentOutputParser):
         regex = r"Action\s*\d*\s*:(.*?)\nAction\s*\d*\s*Input\s*\d*\s*:[\s]*(.*)"
         match = re.search(regex, llm_output, re.DOTALL)
         if not match:
-            raise ValueError(f"Could not parse LLM output: `{llm_output}`")
+            print(f"Could not parse LLM output: `{llm_output}`")
+
         action = match.group(1).strip()
         action_input = match.group(2)
         # Return the action and action input
@@ -116,8 +140,10 @@ class CustomOutputParser(AgentOutputParser):
 prompt = CustomPromptTemplate(
     template=template,
     tools=tools,
-    input_variables=["input", "intermediate_steps"]
+    input_variables=["input", "intermediate_steps", "chat_history"]
 )
+memory = ConversationBufferMemory(memory_key="chat_history")
+
 output_parser = CustomOutputParser()
 
 # LLM chain consisting of the LLM and a prompt
@@ -129,8 +155,11 @@ agent = LLMSingleActionAgent(
     stop=["\nObservation:"], 
     allowed_tools=tool_names
 )
-agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools, verbose=True)
+agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools, verbose=True, memory=memory)
 with get_openai_callback() as cb:
     agent_executor.run("hva er orgbrain?")
+    agent_executor.run("hvor mange kunder har orgbrain?")
+    #print(memory.chat_memory)
+    #agent_executor.run(input("Question: "))
     usdCost = ((cb.total_tokens) / 1000) * 0.02
     print(f"Kostnad for spørsmål (NOK): kr {round(usdCost * 10.59, 4)}")

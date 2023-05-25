@@ -18,7 +18,8 @@ from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
 
-os.environ["OPENAI_API_KEY"] = ""
+keys = open("Keys.txt", "r").read().split("\n")
+os.environ["OPENAI_API_KEY"] = keys[0]
 openai = OpenAI(temperature=0.75)
 
 embedding = OpenAIEmbeddings()
@@ -91,7 +92,7 @@ memorydata = ConversationBufferWindowMemory(k=2)
 #Query the llm
 def RunQuery(query, index, mem, cb, totalTokenCost, k):
     topicdata = index.similarity_search(query, k)
-
+    print(topicdata)
 
     topicOut = open("topic.txt", "w", encoding="utf-8")
     topicOut.write(str(topicdata))

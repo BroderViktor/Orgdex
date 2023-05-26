@@ -65,6 +65,19 @@ def AddFilePath():
     text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
     return text_splitter.split_documents(documents)
 
+def AddFolderPath():
+    path = input("Skriv en fil path du vil legge til: ")
+    docs = []
+    text_splitter = TokenTextSplitter(chunk_size=chunksize, chunk_overlap=chunkoverlap)
+
+    for file in os.listdir(path):
+        filePath = (path + "/" + file)
+        loader = TextLoader(filePath)
+        documents = loader.load()
+        docs.extend(text_splitter.split_documents(documents))
+    
+    return docs
+
 #Defines the chain that will answer questions
 prompt_template = """
 You are a helpful assistant, informing potentiall customers on the advantages of orgbrain, 
@@ -152,11 +165,13 @@ if (i == "1"):
     QA()
 elif (i == '2'):
     db = LoadIndex(index)
-    if (input("Enter 1 to add weburls") == '1'):
+    i = input("Enter 1 to add weburls, 2 to add file path, 3 to add folder")
+    if (i == '1'):
         docs = AddUrlPaths()
-    else:
+    elif (i == '2'):
         docs = AddFilePath()
-    
+    elif (i == '3'): 
+        docs = AddFolderPath()
     db.add_documents(docs)
 elif (i == '3'):
     new_path = input("Name for new index store")

@@ -10,7 +10,7 @@ from langchain.tools import BaseTool
 from langchain.callbacks import get_openai_callback
 from langchain.vectorstores import Chroma
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.utilities import GoogleSearchAPIWrapper
+from langchain.utilities import WikipediaAPIWrapper
 from langchain.memory import ConversationBufferMemory, ConversationBufferWindowMemory
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional, Tuple
@@ -18,6 +18,7 @@ from langchain.memory.utils import get_prompt_input_key
 from pydantic import Field
 import re
 import os
+from serpapi import GoogleSearch
 
 keys = open("Keys.txt", "r").read().split("\n")
 os.environ["OPENAI_API_KEY"] = keys[0]
@@ -37,6 +38,8 @@ index = Chroma(persist_directory="FormatedDocs25025", embedding_function=embeddi
 from googleapiclient.discovery import build
 
 search = SerpAPIWrapper(params={ "engine": "google","google_domain": "google.com","gl": "no","hl": "no" })
+wikipedia_search = WikipediaAPIWrapper(top_k_results=2)
+
 
 def google_search(search_term, **kwargs):
     service = build("customsearch", "v1", developerKey=api_key)
@@ -56,15 +59,51 @@ def searchIndex(query):
     documents = index.similarity_search(query, k=3)
 
     for document in documents:
-        tempSourcesMemory.append(document.metadata)
+        print(document)
+        if ("title" in document.metadata):
+            tempSourcesMemory[0].append("title: " + document.metadata["title"] + " Source: " + document.metadata["source"])
+        else:
+            tempSourcesMemory[0].append("Data fra " + document.metadata["source"] + " kommer fra lokalt minne")
 
     return documents
 
 def searchGoogleWrap(query):
-    search_res = search.run(query)
-    print(search_res)
-    tempSourcesMemory.append("Google Search for: " + format(query))
-    return search_res
+
+    search = GoogleSearch({
+        "q": query, 
+        "hl": "no",
+        "gl": "no",
+        "location": "Oslo,Norway",
+        "api_key": keys[3],
+    })
+    #open("test.json", "w").write(format(search.get_json()))
+    search_res = search.get_dict()
+    results = search_res["organic_results"][:2]
+    parsedResults = []
+
+    keys_to_delete = []
+    answerbox = ""
+    if ("answer_box" in search_res):
+        answerbox = search_res["answer_box"]
+        for key, value in answerbox.items():
+            if (not isinstance(value, str)):
+                keys_to_delete.append(key)
+                
+    for key in keys_to_delete:
+        del answerbox[key]
+
+    if (answerbox != ""):
+        parsedResults.append("Data: " + format(answerbox))
+        tempSourcesMemory[0].append("Google search: " + search_res["search_metadata"]["google_url"])
+
+    for res in results:
+        parsedResults.append("According to: [" + res["title"] + "] their website claims: [" + res["snippet"] + "] link: " + res["link"])
+        tempSourcesMemory[0].append("Source for: [" + res["title"] + "] " + res["link"])
+
+    return parsedResults
+
+def checkWebsite(query):
+    return format(tempSourcesMemory)
 
 def searchSources(query):
     return format(tempSourcesMemory)
@@ -73,24 +112,29 @@ tools=[]
 
 tools.extend([
     Tool(
-        name = "Search memory",
+        name = "Search Database",
         func = searchIndex,
-        description = "Get specific information about orgbrain, input should be a norwegian question"
+        description = "Get specific information about orgbrain or other business related questions, this should be your primary source, input should be a norwegian question"
     ),
     Tool(
         name = "Google Search",
         func = searchGoogleWrap,
-        description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query in norwegian."
+        description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query."
     ),
     Tool(
-        name = "Search for sources",
+        name = "Conversation Memory",
         func = searchSources,
-        description = "Look up the cited sources for the previous message"
+        description = "Look up sources that have been used in this conversation previously, no input to be given"
+    ),
+    Tool(
+        name = "Wikipedia Search",
+        func = wikipedia_search.run,
+        description = "Get information on a large number of topics, input should be a search query in english"
     ),
 ])
 
 # Set up the base template
-template = """You are an Agent for customers of orgbrain.no, answer the following questions as best you can. 
+template = """You are an Agent for customers of orgbrain.no, answer the following questions as best you can giving as much information as is relevant. 
 You have access to the following tools:
 
 {tools}
@@ -111,7 +155,7 @@ Final Answer: the final answer to the original input question
 
 {chat_history}
 
-Question: {input}
+Question (always answer the question in the same language as this): {input}
 
 {agent_scratchpad}
 """
@@ -195,9 +239,9 @@ agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools, ve
 with get_openai_callback() as cb:
     active = True
     while active:
+        tempSourcesMemory.insert(0, [])
         agent_executor.run(input("Question: "))
-        print(tempSourcesMemory)
-        if (len(tempSourcesMemory) >= 2): tempSourcesMemory.pop(0)
+        if (len(tempSourcesMemory) > 1): tempSourcesMemory.pop()
         usdCost = ((cb.total_tokens) / 1000) * 0.02
         print(f"Kostnad for spørsmål (NOK): kr {round(usdCost * 10.59, 4)}")
 

@@ -19,6 +19,8 @@ from pydantic import Field
 import re
 import os
 from serpapi import GoogleSearch
+from bs4 import BeautifulSoup
+import requests
 
 keys = open("Keys.txt", "r").read().split("\n")
 os.environ["OPENAI_API_KEY"] = keys[0]
@@ -35,16 +37,17 @@ index = Chroma(persist_directory="FormatedDocs25025", embedding_function=embeddi
 
 # Define which tools the agent can use to answer user queries
 
-from googleapiclient.discovery import build
+#from googleapiclient.discovery import build
 
 search = SerpAPIWrapper(params={ "engine": "google","google_domain": "google.com","gl": "no","hl": "no" })
-wikipedia_search = WikipediaAPIWrapper(top_k_results=2)
+wikipedia_search = WikipediaAPIWrapper(top_k_results=1)
 
 
 def google_search(search_term, **kwargs):
-    service = build("customsearch", "v1", developerKey=api_key)
-    res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
-    return res['items']
+    #service = build("customsearch", "v1", developerKey=api_key)
+    #res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
+    #return res['items']
+    print("notworking")
 
 def google_search_parser(search, kNum = 3):
     search_results = google_search(search, num=kNum)
@@ -58,14 +61,19 @@ def google_search_parser(search, kNum = 3):
 def searchIndex(query):
     documents = index.similarity_search(query, k=3)
 
+    formatedDocuments = []
     for document in documents:
-        print(document)
+        formatedDoc = ""
         if ("title" in document.metadata):
             tempSourcesMemory[0].append("title: " + document.metadata["title"] + " Source: " + document.metadata["source"])
+            formatedDoc += document.metadata["title"] + ": "
         else:
             tempSourcesMemory[0].append("Data fra " + document.metadata["source"] + " kommer fra lokalt minne")
+        
+        formatedDoc += document.page_content
+        formatedDocuments.append(formatedDoc)
 
-    return documents
+    return formatedDocuments
 
 def searchGoogleWrap(query):
 
@@ -76,7 +84,7 @@ def searchGoogleWrap(query):
         "location": "Oslo,Norway",
         "api_key": keys[3],
     })
-    #open("test.json", "w").write(format(search.get_json()))
+
     search_res = search.get_dict()
     results = search_res["organic_results"][:2]
     parsedResults = []
@@ -103,7 +111,13 @@ def searchGoogleWrap(query):
     return parsedResults
 
 def checkWebsite(query):
-    return format(tempSourcesMemory)
+    try:
+        data = requests.get(query, allow_redirects=True)
+        clean_text = ' '.join(BeautifulSoup(data.text, "html.parser").stripped_strings)[:2000]
+
+        return clean_text + "from link: " + query
+    except:
+        return "Could not find requested site, try another tool"
 
 def searchSources(query):
     return format(tempSourcesMemory)
@@ -112,14 +126,14 @@ tools=[]
 
 tools.extend([
     Tool(
-        name = "Search Database",
+        name = "Search Business Database",
         func = searchIndex,
-        description = "Get specific information about orgbrain or other business related questions, this should be your primary source, input should be a norwegian question"
+        description = "Use to get information about business related topics and orgbrain, input should be a norwegian question"
     ),
     Tool(
         name = "Google Search",
         func = searchGoogleWrap,
-        description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query."
+        description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query in english or norwegian."
     ),
     Tool(
         name = "Conversation Memory",
@@ -129,12 +143,17 @@ tools.extend([
     Tool(
         name = "Wikipedia Search",
         func = wikipedia_search.run,
-        description = "Get information on a large number of topics, input should be a search query in english"
+        description = "Search with wikipedia, input should be a search query"
+    ),
+    Tool(
+        name = "Search Website",
+        func = checkWebsite,
+        description = "Get information from a spesific website that you need more information from, input should be a link"
     ),
 ])
 
 # Set up the base template
-template = """You are an Agent for customers of orgbrain.no, answer the following questions as best you can giving as much information as is relevant. 
+template = """You are an AI agent for Orgbrain.no, your task is to answer the following questions as best you can giving as much information as is relevant. 
 You have access to the following tools:
 
 {tools}
@@ -148,25 +167,17 @@ Thought: you should always think about what to do
 Action: the action to take, should be one of [{tool_names}]
 Action Input: the input to the action
 Observation: the result of the action
-... (this Thought/Action/Action Input/Observation can repeat 2 times)
+... (this Thought/Action/Action Input/Observation can repeat N times)
 
 Thought: I now know the final answer
-Final Answer: the final answer to the original input question
+Final Answer (always answer the question in the same language as it was asked in): the final answer to the original input question
 
 {chat_history}
 
-Question (always answer the question in the same language as this): {input}
+Question: {input}
 
 {agent_scratchpad}
 """
-
-class AdvancedMemory(ConversationBufferWindowMemory):
-
-    def save_context(self, inputs: Dict[str, Any], outputs: Dict[str, str]) -> None:
-        """Save context from this conversation to buffer."""
-        input_str, output_str = self._get_input_output(inputs, outputs)
-        self.chat_memory.add_user_message(input_str)
-        self.chat_memory.add_ai_message(output_str)
 
 # Set up a prompt template
 class CustomPromptTemplate(StringPromptTemplate):
@@ -220,7 +231,7 @@ prompt = CustomPromptTemplate(
     tools=tools,
     input_variables=["input", "intermediate_steps", "chat_history"]
 )
-memory = AdvancedMemory(memory_key="chat_history", k=2)
+memory = ConversationBufferWindowMemory(memory_key="chat_history", k=2)
 tempSourcesMemory = []
 
 output_parser = CustomOutputParser()

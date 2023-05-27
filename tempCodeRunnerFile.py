@@ -1,1 +1,2 @@
 
+checkWebsite("http://gegrk.no/")

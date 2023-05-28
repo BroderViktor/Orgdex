@@ -39,15 +39,16 @@ index = Chroma(persist_directory="FormatedDocs25025", embedding_function=embeddi
 
 #from googleapiclient.discovery import build
 
-search = SerpAPIWrapper(params={ "engine": "google","google_domain": "google.com","gl": "no","hl": "no" })
+#search = SerpAPIWrapper(params={ "engine": "google","google_domain": "google.com","gl": "no","hl": "no" })
 wikipedia_search = WikipediaAPIWrapper(top_k_results=1)
 
 
 def google_search(search_term, **kwargs):
-    #service = build("customsearch", "v1", developerKey=api_key)
-    #res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
-    #return res['items']
-    print("notworking")
+    links = []
+    #for link in search(search_term, num=2, stop=2, pause=2, lang="no", country="no"):
+       # links.append(link)
+
+    return links
 
 def google_search_parser(search, kNum = 3):
     search_results = google_search(search, num=kNum)
@@ -64,11 +65,15 @@ def searchIndex(query):
     formatedDocuments = []
     for document in documents:
         formatedDoc = ""
-        if ("title" in document.metadata):
-            tempSourcesMemory[0].append("title: " + document.metadata["title"] + " Source: " + document.metadata["source"])
-            formatedDoc += document.metadata["title"] + ": "
-        else:
-            tempSourcesMemory[0].append("Data fra " + document.metadata["source"] + " kommer fra lokalt minne")
+        try:
+            if ("title" in document.metadata):
+                tempSourcesMemory[0].append("title: " + document.metadata["title"] + " Source: " + document.metadata["source"])
+                formatedDoc += document.metadata["title"] + ": "
+            else:
+                tempSourcesMemory[0].append("Data fra " + document.metadata["source"] + " kommer fra lokalt minne")
+                formatedDoc += "Orgbrain Academy: "
+        except:
+            print("Error could not add data from document: " + document)
         
         formatedDoc += document.page_content
         formatedDocuments.append(formatedDoc)
@@ -86,7 +91,11 @@ def searchGoogleWrap(query):
     })
 
     search_res = search.get_dict()
-    results = search_res["organic_results"][:2]
+    results = []
+    try:
+        results = search_res["organic_results"][:2]
+    except:
+        print("Error: No organic results: " + str(search_res))
     parsedResults = []
 
     keys_to_delete = []
@@ -101,12 +110,18 @@ def searchGoogleWrap(query):
         del answerbox[key]
 
     if (answerbox != ""):
-        parsedResults.append("Data: " + format(answerbox))
-        tempSourcesMemory[0].append("Google search: " + search_res["search_metadata"]["google_url"])
+        try:
+            parsedResults.append("Data: " + format(answerbox))
+            tempSourcesMemory[0].append("Google search: " + search_res["search_metadata"]["google_url"])
+        except:
+            print("Error, could not add data from answerbox: " + answerbox)
 
     for res in results:
-        parsedResults.append("According to: [" + res["title"] + "] their website claims: [" + res["snippet"] + "] link: " + res["link"])
-        tempSourcesMemory[0].append("Source for: [" + res["title"] + "] " + res["link"])
+        try:
+            parsedResults.append("According to: [" + res["title"] + "] their website claims: [" + res["snippet"] + "] link: " + res["link"])
+            tempSourcesMemory[0].append("Source for: [" + res["title"] + "] " + res["link"])
+        except:
+            print("Error, could not add data from search: " + res)
 
     return parsedResults
 
@@ -126,9 +141,9 @@ tools=[]
 
 tools.extend([
     Tool(
-        name = "Search Business Database",
+        name = "Search Orgbrain Database",
         func = searchIndex,
-        description = "Use to get information about business related topics and orgbrain, input should be a norwegian question"
+        description = "Use to get information about business related topics and orgbrain, this is a good source, input should be a norwegian question"
     ),
     Tool(
         name = "Google Search",
@@ -136,7 +151,7 @@ tools.extend([
         description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query in english or norwegian."
     ),
     Tool(
-        name = "Conversation Memory",
+        name = "Get sources for previous claims",
         func = searchSources,
         description = "Look up sources that have been used in this conversation previously, no input to be given"
     ),
@@ -153,7 +168,7 @@ tools.extend([
 ])
 
 # Set up the base template
-template = """You are an AI agent for Orgbrain.no, your task is to answer the following questions as best you can giving as much information as is relevant. 
+template = """You are an AI agent for Orgbrain.no, your task is to answer the following questions as best you can giving as much information as is relevant, use logic where it is applicable. 
 You have access to the following tools:
 
 {tools}

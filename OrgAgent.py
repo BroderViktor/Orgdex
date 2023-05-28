@@ -118,7 +118,7 @@ def searchGoogleWrap(query):
 
     for res in results:
         try:
-            parsedResults.append("According to: [" + res["title"] + "] their website claims: [" + res["snippet"] + "] link: " + res["link"])
+            parsedResults.append(res["title"] + ": snippet: [" + res["snippet"] + "] link: " + res["link"])
             tempSourcesMemory[0].append("Source for: [" + res["title"] + "] " + res["link"])
         except:
             print("Error, could not add data from search: " + res)
@@ -143,7 +143,7 @@ tools.extend([
     Tool(
         name = "Search Orgbrain Database",
         func = searchIndex,
-        description = "Use to get information about business related topics and orgbrain, this is a good source, input should be a norwegian question"
+        description = "Use to get information about business related topics and orgbrain, input should be a norwegian question"
     ),
     Tool(
         name = "Google Search",

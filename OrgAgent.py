@@ -33,7 +33,7 @@ api_key = keys[2]
 llm = OpenAI(temperature=0)
 embedding = OpenAIEmbeddings()
 
-index = Chroma(persist_directory="FormatedDocs25025", embedding_function=embedding)
+index = Chroma(persist_directory="ny", embedding_function=embedding)
 
 # Define which tools the agent can use to answer user queries
 

@@ -1,6 +1,7 @@
 from langchain.agents import Tool, AgentExecutor
 from langchain.agents.agent import AgentOutputParser, LLMSingleActionAgent
 from langchain.prompts import StringPromptTemplate
+from langchain.chat_models import ChatOpenAI
 from langchain import OpenAI, SerpAPIWrapper, LLMChain
 from typing import List, Union
 from abc import ABC
@@ -30,7 +31,7 @@ os.environ["SERPAPI_API_KEY"] = keys[3]
 cse_id = keys[1]
 api_key = keys[2]
 
-llm = OpenAI(temperature=0)
+llm = ChatOpenAI(temperature=0.0, model_name="gpt-3.5-turbo")
 embedding = OpenAIEmbeddings()
 
 index = Chroma(persist_directory="ny", embedding_function=embedding)
@@ -151,7 +152,7 @@ tools.extend([
         description = "A wrapper around Google Search. Useful for when you need to answer questions about current events. Input should be a search query in english or norwegian."
     ),
     Tool(
-        name = "Get sources for previous claims",
+        name = "Get used sources for previous claims",
         func = searchSources,
         description = "Look up sources that have been used in this conversation previously, no input to be given"
     ),

@@ -1,0 +1,53 @@
+Årsregnskap
+
+Det fremgår av regnskapsloven at aksjeselskaper skal utarbeide årsregnskap og årsberetning innen seks måneder etter regnskapsårets slutt. Som øverste ledelse er det styret som er ansvarlig for at årsregnskap blir utarbeidet. Dette inkluderer alle plikter og steg på veien mot et ferdig årsregnskap.
+
+Plikten til å utarbeide årsberetning gjelder ikke for selskaper som defineres som små foretak i henhold til regnskapsloven § 1-6. Dette gjelder i utgangspunktet selskaper som på balansedagen ikke overskrider grensene for to av følgende tre vilkår: (i) salgsinntekt på NOK 70 millioner, (ii) balansesum på NOK 35 millioner og (iii) gjennomsnittlig antall ansatte i regnskapsåret på 50 årsverk.
+
+Årsregnskapet
+Et årsregnskap skal blant annet inneholde resultatregnskap, balanse, kontantstrømoppstilling og noteopplysninger, jf. regnskapsloven § 3-2.
+
+Kort fortalt er et resultatregnskap en oppstilling av selskapets inntekter og kostnader det aktuelle regnskapsåret. En balanse er en oppstilling av selskapets eiendeler, egenkapital og gjeld. I balansen skal summen av egenkapital og gjeld tilsvare summen av eiendeler. En kontantstrømoppstilling viser en oversikt over innbetalinger og utbetalinger (selskapets likviditet). Noteopplysninger skal gi informasjon og redegjøre for hvordan beløpene i regnskapet er fremkommet (hvilken vurdering som er brukt til å fastsette verdier m.m.).
+
+Normalt er styret lite involvert i selve utarbeidelsen av årsregnskapet. Som regel blir dette utført av en regnskapsfører eller en regnskapssjef, men ansvaret for at det blir gjort riktig ligger hos styret.
+
+Styrets involvering i føringen av årsregnskapet er særlig avhengig av om selskaper har engasjert en revisor eller ikke. Dersom selskapet ikke benytter revisor, krever dette økt aktsomhet hos styret, spesielt i forbindelse med vurdering av ulike poster i regnskapet slik som immaterielle verdier, goodwill og verdivurdering/nedskrivning av anleggsmidler mv.
+
+Årsberetning
+Årsberetningen er en redegjørelse fra styret og daglig leder som blant annet viser utviklingen i foretaket og forutsetninger for fremtidig drift, Formålet med årsberetningen er å supplere årsregnskapet ved å gi bedre innsikt i de underliggende forholdene som har påvirket årsregnskapet. Årsberetningen skal også gi informasjon om forhold som ikke er en del av årsregnskapet, for eksempel vurderinger av framtidsutsiktene til foretaket.
+
+Regnskapsloven § 3-3a beskriver hva som skal være med i en årsbereting. Årsberetningen skal blant annet omfatte en korrekt oversikt over utviklingen og resultatet av den regnskapspliktiges virksomhet og av dens stilling, sammen med en beskrivelse av de mest sentrale risikoer og usikkerhetsfaktorer den regnskapspliktige står overfor.
+
+I 2021 kom det også inn krav om at årsberetningen skal inneholde opplysninger om det er tegnet forsikring for styrets medlemmer og daglig leder for deres mulige ansvar overfor selskapet og tredjepersoner. Dersom det er tegnet slik forsikring skal det også opplyses om forsikringsdekningen. Bakgrunnen for dette kravet er at dette er informasjon som anses relevant for investorer som vurderer å investere selskapet. En slik plikt er også med på å synliggjøre det ansvaret styret og ledelsen har.
+
+Både årsregnskapet og årsberetningen skal være på norsk, jf. regnskapsloven § 3-4.
+
+Styrebehandling
+Styrets behandling av årsregnskap og årsberetning skal behandles i møte, med mindre styrets leder finner at saken kan forelegges skriftlig eller behandles på annen måte, jf. aksjeloven § 6-19.
+
+Både årsregnskapet og årsberetningen skal underskrives av samtlige styremedlemmer samt daglig leder. Her er det viktig å være bevisst på at dersom noen har innvendinger mot det som fremkommer i årsregnskapet eller årsberetningen, må vedkommende underskrive med påtegnet forbehold og gi nærmere redegjørelse for dette i årsberetningen, jf. regnskapsloven § 3-5.
+
+En annet dokument som samtlige styremedlemmer og daglig leder i større virksomheter (jf. åpenhetsloven § 3) er pliktig å underskrive i henhold til regnskapsloven § 3-5, er selskapets redegjørelse for aktsomhetsvurderinger i henhold til åpenhetsloven, jf. åpenhetsloven § 5. Da denne redegjørelsen skal oppdateres og offentliggjøres innen 30. juni hvert år, kan dette være naturlig å behandle sammen med årsregnskapet.
+
+Styrets forhold til revisor
+For selskap som er revisjonspliktige, skal revisor kommunisere skriftlig til styret om forhold som avdekkes ved revisjonen, og som styret bør gjøres kjent med for å kunne ivareta sitt ansvar og oppgaver, deriblant vesentlige mangler i foretakets interne kontroll, brudd på bokføringsreglene og andre lovkrav og avdekkede misligheter.
+
+Revisor skal angi hva forholdet gjelder og hvilke konsekvenser det vil ha for revisjonen hvis forholdet ikke følges opp. Revisor skal se etter at de kommuniserte forholdene er behandlet av styret, jf. revisorloven § 9-5.
+
+Tett dialog med revisor, særlig i forbindelse med behandling av årsregnskapet, er en viktige del av styrets kontrollarbeid. Styret bør derfor avholde et møte med revisor, uten administrasjon til stede, i forbindelse med behandling av årsregnskapet. I møtene bør revisor gjennomgå eventuelle vesentlige endringer i selskapets regnskapsprinsipper, sentrale forhold ved revisjonen, vurdering av vesentlige regnskapsposter samt forhold hvor det har vært uenighet mellom revisor og administrasjonen.
+
+Generalforsamlingsbehandling
+Innen seks måneder etter utgangen av regnskapsåret skal den ordinære generalforsamlingen behandle selskapets årsregnskap og eventuell årsberetning, jf. aksjeloven § 5-5. Styret har her plikt til å sende innkalling til behandling til alle aksjeeiere med kjent adresse senest en uke før generalforsamlingen skal avholdes. Innkallingen skal inneholde kopi av årsregnskap samt eventuell årsberetning og revisjonsberetning.
+
+På generalforsamlingen kan hver enkelt aksjonær kreve at styremedlemmer og daglig leder opplyser om forhold som kan innvirke på bedømmelsen og godkjennelsen av både årsregnskapet og årsberetningen, jf. aksjeloven § 5-15.
+
+Generalforsamlingens myndighet er begrenset til å godkjenne eller ikke godkjenne det årsregnskapet styret legger frem.
+
+Generalforsamlingens myndighet er begrenset til å godkjenne eller ikke godkjenne det årsregnskapet styret legger frem. Forkaster generalforsamlingen styrets forslag, må styret eventuelt fremme et nytt forslag overfor generalforsamlingen, hvor det er tatt hensyn til generalforsamlingens merknader i den utstrekning styret finner disse akseptable.
+
+Generalforsamlingen kan imidlertid ikke selv fastsette endringer i regnskapet. Hvis et vedtaksført styre er til stede under generalforsamlingen, vil styret på stedet kunne fastsette slike endringer.
+
+Innsendelse og oppbevaring
+Senest én måned etter fastsetting av årsregnskapet skal det sendes et eksemplar av årsregnskapet, samt eventuelt årsberetningen og revisjonsberetningen, til Regnskapsregisteret, jf. regnskapsloven § 8-2.
+
+Årsregnskap er oppbevaringspliktig regnskapsmateriale og skal oppbevares i Norge i fem år etter regnskapsårets slutt, jf. bokføringsloven § 13. Regnskapsmaterialet skal være tilgjengelig i lesbar form og skal kunne skrives ut på papir i hele oppbevaringsperioden.

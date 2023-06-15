@@ -1,0 +1,139 @@
+Daglig leder og styret
+
+Daglig ledelse
+Styret har det overordnede ansvaret for forvaltningen av selskapet, inkludert det å fastsette planer og budsjetter for selskapets virksomhet samt sørge for at virksomheten er forsvarlig organisert, jf. aksjeloven § 6-12. Den overordnede ledelsen av selskapet ligger altså under styret, men styret kan tilsette en daglig leder, jf. aksjeloven § 6-2 (2), og delegere deler av den daglige ledelsen til vedkommende.
+
+
+Daglig leder er betegnelsen på en enkeltperson, men i henhold til aksjelovens utforming er rollen som daglig leder også betegnelsen på et selskapsorgan som er underlagt styret. Her skal daglig leder gjennomføre styrets vedtak, samt følge de retningslinjer og pålegg styret gir. Det vil i praksis si at daglig leder skal stå for den operative ledelsen av selskapet, og gjennom det bidra til at styret lykkes med sine oppgaver.
+
+Daglig leder er ofte drivkraften i selskapet og dermed en nøkkel til suksess. En av styrets aller viktigste oppgaver er derfor å ansette daglig leder, samt sikre at vedkommende fungerer bra i sin rolle. I tilfeller der daglig leder ikke fungerer tilfredsstillende, er det styrets oppgave å avdekke dette, og sette inn nødvendige tiltak.
+
+Tar vi utgangspunkt i det arbeidsrettslige, er daglig leder å betrakte som en arbeidstaker, med selskapet som arbeidsgiver. Forholdet mellom daglig leder og styret er dermed todelt. For det første foreligger det et arbeidsrettslig forhold som beskrevet i arbeidsmiljøloven. I tillegg er det et forhold mellom to selskapsrettslige organer, som er regulert i aksjeloven. Denne todelte situasjon kan i enkelte situasjoner være utfordrende å forholde seg til. Det er for eksempel arbeidsmiljøloven som definerer daglig leder som arbeidstaker, men det er aksjeloven som bestemmer innholdet i daglig leders arbeidsforpliktelse.
+
+Det er aksjeloven § 6-14 som beskriver hva som ligger i daglig ledelse av selskapet.
+
+§ 6-14. Daglig ledelse
+
+(1) Daglig leder står for den daglige ledelse av selskapets virksomhet og skal følge de retningslinjer og pålegg styret har gitt. Har selskapet ikke daglig leder, står styret for den daglige ledelse.
+
+(2) Den daglige ledelse omfatter ikke saker som etter selskapets forhold er av uvanlig art eller stor betydning.
+
+(3) Daglig leder kan ellers avgjøre en sak etter fullmakt fra styret i det enkelte tilfellet eller når styrets beslutning ikke kan avventes uten vesentlig ulempe for selskapet. Styret skal snarest underrettes om avgjørelsen.
+
+(4) Daglig leder skal sørge for at selskapets regnskap er i samsvar med lov og forskrifter, og at formuesforvaltningen er ordnet på en betryggende måte.
+
+Første ledd angir to hovedregler om daglig leders oppgaver og myndighet i selskapet. Den første er at i selskap som har daglig leder, så hører den daglige ledelse av selskapet under denne. Den andre hovedregelen er at daglig leders myndighet når det gjelder den daglige ledelse, ikke er eksklusiv, men overlappes av styrets overordnede myndighet til å forvalte selskapet.
+
+Styrets myndighet overfor daglig leder innebærer at styret kan instruere daglig leder, selv overta en sak som hører under den daglige ledelsen eller omgjøre daglig leders beslutninger.
+
+En god personkjemi, og en klar arbeidsfordeling mellom styret og daglig leder, er viktige forutsetninger for å få til et godt styrearbeid. Det vil blant annet si at styret normalt bør unngå å blande seg inn i den daglige driften, og heller ikke kontakte de ansatte direkte uten at dette er klarert med daglig leder. Dersom styret stadig vekk «går bak ryggen» til daglig leder kan dette bidra til å redusere daglig leders autoritet.
+
+Når det er sagt så trenger det ikke å være negativt at styret er synlig i den operative driften av selskapet. For eksempel har to forskere fra Stanford University publisert en artikkel i Harvard Business Review, der har sett på hvordan Netflix organiserer sitt styrearbeid. Her kommer det frem at styremedlemmene i Netflix er betydelig mer tilstede i den daglige drift enn det som tradisjonelt har vært normalt i sammenlignbare selskaper. Denne tilstedeværelsen mente forskerne var en av de viktigste årsakene til Netflixs ekstraordinære gode resultater de siste årene.
+
+En god personkjemi, og en klar arbeidsfordeling mellom styret og daglig leder, er viktige forutsetninger for å få til et godt styrearbeid.
+
+Andre ledd sier at den daglige ledelse ikke omfatter saker som etter selskapets forhold er av uvanlig art eller stor betydning. Hvorvidt dette er tilfelle, vil nødvendigvis være gjenstand for et konkret skjønn. Her må man blant annet ta i betraktning selskapets størrelse og omfanget av dets virksomhet, samt virksomhetens art. Saker som typisk vil være relevant er kjøp og salg av fast eiendom, pantsettelser og inngåelse/oppsigelse av leiekontrakter.
+
+Tredje ledd tilsier at daglig leder i enkelttilfeller kan avgjøre en sak etter fullmakt fra styret. Likeledes kan daglig leder foreta en avgjørelse når styrets beslutning ikke kan avventes uten at det kan få vesentlig ulempe for selskapet. Hvorvidt sistnevnte vilkår foreligger vil måtte avgjøres av daglig leder etter en konkret vurdering. Her må daglig leder blant annet vurdere hvilke følger forsinkelsen ved å avvente styrets beslutning vil kunne få for selskapet.
+
+I fjerde ledd står det at daglig leder skal sørge for at selskapets regnskap er i samsvar med lov og forskrifter. Her må daglig leder blant annet påse at det blir utarbeidet utkast til årsregnskap, som blir forelagt styret i så god tid at det kan behandles av generalforsamlingen innenfor gjeldende frister.
+
+Stillingsfullmakt
+Når det gjelder daglig leders stillingsfullmakt til å representere selskapet utad, fremgår dette av aksjeloven § 6-32, som sier følgende:
+
+§ 6-32. Daglig leders representasjon utad
+
+Daglig leder representerer selskapet utad i saker som inngår i den daglige ledelse.
+
+Daglig leders stillingsfullmakt etter aksjeloven § 6-32 har hovedsakelig betydning der hvor daglig leder ikke er gitt signatur etter aksjeloven § 6-31 (1), og heller ikke er meddelt prokura etter prokuraloven § 1. Dette kommer av at den myndighet som følger av signatur og prokura, antakelig går noe lenger enn stillingsfullmakten.
+
+Rapportering
+Daglig leder har en underretningsplikt overfor styret, og styret har rett til å kreve redegjørelse. Aksjeloven § 6-15 sier følgende:
+
+§ 6-15. Daglig leders plikter overfor styret
+
+(1) Daglig leder skal minst hver fjerde måned gi styret underretning om selskapets virksomhet, stilling og resultatutvikling.
+
+(2) Styret kan til enhver tid kreve at daglig leder gir styret en nærmere redegjørelse om bestemte saker. Slik redegjørelse kan også kreves av det enkelte styremedlem.
+
+Daglig leder skal minst hver fjerde måned rapportere til styret. I de fleste selskaper som har en viss aktivitet, vil det være behov for hyppigere rapportering enn dette.
+
+Daglig leder skal minst hver fjerde måned rapportere til styret
+
+Hvor omfattende og detaljert rapporteringen skal være må avgjøres ut fra selskapets størrelse, hva slags saker daglig leder har hatt til behandling siden forrige rapportering samt hvor stor betydning disse sakene må anses å ha for selskapet.
+
+Typiske saker som er med i daglig leders periodiske rapportering er;
+
+Delårsregnskaper med avviksrapportering
+Likviditetsbudsjett
+Orientering om marked, produkter og organisasjon
+Større leverandør- og kundeavtaler
+Forslag til forbedringer
+Det enkelte styremedlem har mulighet til å pålegge daglig leder å redegjøre nærmere om bestemte saker. En slik redegjørelse kan bli gitt i styremøte eller i annen form som styret finner hensiktsmessig, men det er en forutsetning at samtlige styremedlemmer får del i redegjørelsen.
+
+For enkelte forhold kan det være hensiktsmessig å redegjøre skriftlig, slik som regnskapsinformasjon. Dersom redegjørelsen skjer muntlig, må styremedlemmer som eventuelt ikke er til stede, så raskt som mulig informeres tilsvarende.
+
+Rett og plikt til å delta i styrebehandling
+Av aksjeloven § 6-19 (4) kan man lese at daglig leder har både en rett til og en plikt til å delta i behandlingen av styresaker.
+
+§ 6-19. Styrets saksbehandling
+
+(4) Daglig leder har rett og plikt til å delta i styrets behandling av saker og til å uttale seg, med mindre annet er bestemt av styret i den enkelte sak.
+
+Dette tilsier at daglig leder, i likhet med resten av styret, må varsles på hensiktsmessig måte og med nødvendig frist i forkant av styrebehandlingen, jf. aksjeloven § 6-22. Posisjon som daglig leder gir imidlertid ikke stemmerett ved behandling av styresaker.
+
+Selv om lovens utgangspunkt er at daglig leder har en rett og en plikt til å delta i behandling av styresaker, er det slik at styret i enkelttilfeller kan beslutte at daglig leder ikke skal delta. Dette kan for eksempel være i saker som er direkte relatert til daglig leders stilling eller ansvar.
+
+Forberede styresaker
+Daglig leder har en sentral rolle i forberedelse av saker som skal behandles av styret. Av aksjeloven § 6-21 kan vi lese følgende:
+
+§ 6-21. Forberedelsen av saker
+
+(1) Daglig leder forbereder saker som skal behandles av styret i samråd med styrets leder.
+
+(2) En sak skal forberedes og fremlegges slik at styret har et tilfredsstillende behandlingsgrunnlag.
+
+Lovens første ledd pålegger daglig leder å forberede styrebehandlingen. Det fremgår imidlertid av bestemmelsen at dette skal skje i samråd med styrets leder.
+
+Normalt er det daglig leder som kaller inn til styremøte, etter avtale med styrets leder. Videre er det normalt at det er daglig leder som både forbereder saker og presenterer disse på styremøtet.
+
+Deltakelse på generalforsamlinger
+Daglig leder, har sammen med styrets leder, en rett og en plikt til å delta på generalforsamlinger som holdes som møte, jf. aksjeloven § 5-4 (1). Møteplikten har sammenheng med ledelsens opplysningsplikt etter aksjeloven § 5-15 der en aksjeeier kan kreve opplysninger fra daglig leder.
+
+Daglig leder har også en selvstendig rett til å uttale seg på generalforsamlingen, jf. aksjeloven § 5-4 (2).
+
+Instruks til daglig leder
+Det er viktig at det skapes en trygghet mellom styret og daglig leder om ansvarsforhold, fullmakter og hvilke forventninger styret har til daglig leder. For å avklare dette er det fornuftig at det utarbeides en instruks for daglig leder. En instruks kan for eksempel se slik ut:
+
+Daglig leders plikter og ansvar
+Daglig leder er ansvarlig for den daglige driften og representerer selskapet utad. Selskapets styre er daglig leders nærmeste overordnede. Mellom styremøtene rapporterer daglig leder til styrets leder i saker der dette er naturlig.
+Daglig leder har ansvaret for forvaltningen av selskapets menneskelige og materielle ressurser. Daglig leder skal i samsvar med lovgivning, vedtekter, retningslinjer og pålegg skjøtte den løpende ledelse og forvaltning av selskapets virksomhet i følge med de retningslinjer og anvisninger styret har meddelt.
+Daglig leder skal i samarbeid med styret fastsette selskapets mål og strategier, for deretter å ta ansvaret for en effektiv ledelse av alles innsats for å innfri disse.
+Daglig leder skal holde kontakt med og utvikle samarbeidet med bedriftens kunder, leverandører og andre forretningsforbindelser samt offentlige myndigheter.
+Daglig leder skal sørge for at selskapet til enhver tid er à jour med sine økonomiske forpliktelser og informere styret om eventuelle avvik fra dette.
+Daglig leder skal minst hver måned, og i henhold til vedtatt møteplan, gi styret underretning om selskapets virksomhet, stilling og resultatutvikling. Styret kan til enhver tid kreve at daglig leder gir styret en nærmere redegjørelse om bestemte saker. Følgende faste rapporter skal gis:
+delårsregnskaper med avviksrapportering
+likviditetsbudsjett
+orientering om marked, produkter og organisasjon
+avtaler som binder selskapet lenger enn et år, og som har en verdi på mer enn den øvre grense styret fastsetter
+etterlevelse av GDPR
+forslag til forbedringer
+Daglig leder skal sammen med styrets leder på første styremøte etter ordinær generalforsamling sette opp forslag til møteplan for neste 12 måneder. Forslaget skal i tillegg til dato inneholde agendapunkter for de sentrale sakene som skal behandles og om de enkelte møtene skal avholdes fysisk eller digitalt.
+Daglig leder skal i samråd med styrets leder forberede de saker som skal og bør behandles på styremøte. Daglig leder skal sørge for en tilfredsstillende kvalitetssikring av beslutningsgrunnlaget slik at avgjørelser ikke tas på feil grunnlag.
+Daglig leder har et selvstendig ansvar å innkalle til ekstraordinært styremøte dersom det oppstår en hendelse som krever at styret samles.
+Daglig leder plikter å delta i styremøter og har talerett i alle saker, men ikke stemmerett. Styret kan bestemme at daglig leder ikke skal delta ved behandling av enkeltsaker. Dette vil typisk være aktuelt i saker som berører daglig leder selv.
+Dersom daglig leder er forhindret fra å delta på styremøte skal dette så snart som mulig varsles til styrets leder.
+Daglig leder skal sørge for at styrets vedtak blir iverksatt. Daglig leder skal også påse at selskapets ansatte og andre involverte parter får tilstrekkelig informasjon om styrets vedtak.
+Daglig leder skal underrette styret når forutsetningene for et tidligere vedtak som har betydning for driften, er vesentlig endret.
+Oppsigelse som selskapet mottar fra personer i ledelsen eller andre nøkkelansatte, skal omgående meldes til styrets leder.
+Daglig leder plikter å delta på generalforsamlinger. Ved deltagelse skal daglig leder etter beste evne ha tilgjengelig opplysninger slik at det kan bli gitt svar til aksjonærene på relevante saker med tanke på økonomi, regnskap og andre saker som er til beslutning.
+Daglig leder skal underrette styrets leder om eget fravær utøver tre dager ved ferie og sykdom.
+Daglig leder kan ikke personlig motta gaver eller annen form for ytelser fra kunder, leverandører eller andre som har en forretningsforbindelse med selskapet, uten at dette er klarert med styret.
+Fullmakt
+Daglig leder kan ikke uten fullmakt fra styret ta beslutninger i saker som med tanke på omfang eller art er av uvanlig art eller av stor betydning. For øvrig har daglig leder den myndighet som naturlig ligger i daglig leders ansvar etter loven, praksis, ansettelsesavtalen og instruks fra styret.
+Daglig leder skal alltid legge frem for styret avtaler som binder selskapet mer enn ett år, og som har verdi på mer enn kr. 500 000, kjøp, salg og/eller pantsettelse av fast eiendom, opptak av lån, saker av uvanlig karakter, og som ikke faller inn under ordinær drift og forhold som av enkelte kan oppfattes som en interessekonflikt.
+Ved behov kan daglig leder få utvidet fullmakt fra styret.
+Taushetsplikt
+Daglig leder har taushetsplikt om alle sensitive avtaler, saker og interne forhold vedkommende blir gjort kjent med i forbindelse med sin rolle.
+Diskusjoner som skjer i styremøter skal alltid behandles konfidensielt såfremt styret ikke har bestemt noe annet.
+Vedtak i styret kan kommuniseres videre med mindre styret har bestemt noe annet i den konkrete saken.

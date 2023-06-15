@@ -1,0 +1,38 @@
+Taushetsplikt
+
+For at de som sitter i styret skal kunne føre en åpen og konstruktiv diskusjon, må styremedlemmene og daglig leder kunne stole på hverandre. Det vil blant annet si at de må kunne diskutere med hverandre uten å være redde for at konfidensiell informasjon som kommer frem under en diskusjon skal lekke ut til personer som ikke har legitim grunn til å bli kjent med disse opplysningene. Man skulle derfor tro at aksjeloven hadde en bestemmelse som regulerer taushetsplikt, men det har den ikke. Aksjeloven har ingen regel om taushetsplikt. Imidlertid var temaet indirekte berørt i forbindelse med forarbeidet til aksjeloven (jf. Ot.prp. nr. 23 (1996-97)) der man kan lese:
+
+«Når det gjelder de spørsmål som er reist om styremedlemmenes lojalitetsplikt, hvem styremedlemmene representerer osv, vil departementet generelt bemerke at styremedlemmene er tillitsvalgte som handler for sin oppdragsgiver, det vil si selskapet. En lojalitetsplikt for styremedlemmene kan utledes av den alminnelige regel om at styret som andre oppdragstakere skal ivareta oppdragsgiverens interesse under utførelsen av oppdraget. En slik lojalitetsplikt er imidlertid ikke til hinder for at styret også må ivareta andre hensyn som gjør seg gjeldende i selskapet.»
+
+Det er altså styremedlemmers lojalitetsplikt til selskapet, og plikten til å ivareta selskapets interesse, som særlig begrunner taushetsplikten styremedlemmer er underlagt. Dette vil blant annet si at styremedlemmer har plikt til å sørge for at sensitive opplysninger som de blir kjent med ved utøvelsen av sitt styreverv, ikke blir spredd til uvedkommende. Styret må derfor behandle forretningskritiske forhold, personalforhold, interne diskusjoner av sensitiv art og annen sensitiv informasjon konfidensielt.
+
+For enkelte selskaper kan styret også være underlagt en mer spesifikk taushetsplikt i forhold til særlovgivning. Dette kan for eksempel være styreverv i børsnoterte selskaper og verdipapirforetak.
+
+Av dette kan man lese at det er styremedlemmers lojalitetsplikt til selskapet og plikten til å ivareta selskapets interesse som særlig begrunner taushetsplikten styremedlemmer er underlagt.
+
+Hvor langt taushetsplikten strekker seg, må derfor vurderes i hvert enkelt konkrete tilfelle, blant annet ut fra hvilken virksomhet selskapet driver, og opplysningenes karakter.
+
+Et utgangspunkt kan være at styret skiller mellom diskusjoner og vedtak. Diskusjoner bør alltid være konfidensielle dersom styret ikke har bestemt noe annet, mens vedtak bør kunne kommuniseres videre dersom styret ikke har bestemt noe annet i den konkrete saken.
+
+Ved å skille mellom diskusjoner og vedtak gjør man det enklere for deltakerne å diskutere fritt på styremøter, uten å være bekymret for at «sleivete» uttalelser skal komme ut til andre og kanskje også bli feiltolket ved at de blir tatt ut av sammenhengen.
+
+Taushetserklæring
+Styret skal sørge for at de organiserer sitt arbeid på en forsvarlig og hensiktsmessig måte. Dette gjelder også i forhold til informasjon styremedlemmer får tilgang til i forbindelse med sitt verv for selskapet. Som ved andre vedtak kan styret ved flertallsbeslutning pålegge taushet for styremedlemmer i konkrete saker som krever særlig konfidensialitet. For de selskapene som har styreinstruks, anbefales det at en taushetserklæring innarbeides som en del av denne.
+
+Ansatterepresentanters taushetsplikt
+Når det gjelder ansattevalgte representanter i styret, er deres mandat å representere de ansattes interesse. Imidlertid er det slik at ansattevalgte representanter er likestilt øvrige styremedlemmer når det gjelder å ivareta selskapets interesse. Dersom det oppstår en konfliktsituasjon mellom disse to hensyn er det selskapets interesse som har forrang. Når det er sagt, er det imidlertid grenser for hvor langt selskapet kan gå i å pålegge ansatterepresentanter en generell taushetsplikt. Det må foreligge saklig grunn.
+
+Konsernforhold
+I følge aksjeloven § 6-16 (1), plikter styret i et datterselskap å gi styret i morselskapet opplysninger som er nødvendige for å kunne vurdere stilling og resultatet av konsernets virksomhet. Videre sier andre ledd at morselskapet skal underrette styret i et datterselskap om forhold som kan ha betydning for konsernet som helhet. Morselskapet skal også underrette datterselskapets styre om beslutninger som kan ha betydning for datterselskapet, før endelig beslutning treffes. Det vil si at opplysninger som gis i medhold av denne bestemmelsen kan inkludere opplysninger som ellers er underlagt taushetsplikt.
+
+Taushetsplikt overfor aksjonærene
+Styrets taushetsplikt gjelder også overfor selskapets aksjonærer, med mindre det er i selskapets interesse å formidle opplysninger til enkelte aksjeeiere. Dette vil kunne være aktuelt i forbindelse med forberedelse til en generalforsamling der det skal tas stilling til viktige beslutninger om kapitalforhøyelse eller fusjon. I forkant av en slik generalforsamling vil det kunne være hensiktsmessig å avklare synspunktene til de største aksjonærene.
+
+I henhold til aksjeloven § 5-15, kan enkeltaksjonærer kreve at styremedlemmer på generalforsamlingen gir informasjon om forhold som kan påvirke vedtak som generalforsamlingen skal fatte. Imidlertid kommer det frem at dette ikke gjelder informasjon som er av en slik art at den er egnet til å påføre selskapet uforholdsmessig skade.
+
+Imidlertid er generalforsamlingen selskapets øverste myndighet, og kan gjennom en flertallsbeslutning pålegge styret å gi generalforsamlingen en hvilken som helst opplysning om selskapets forhold. Dette gjelder også sensitiv informasjon som kan skade selskapets interesser dersom de blir gjort kjent for uvedkommende. Også opplysninger som er undergitt taushetsplikt i henhold til avtale med tredjeperson, kan generalforsamlingen kreve at blir fremlagt.
+
+Dersom styret skulle mene at det vil påføre selskapet skade å legge frem opplysningene, skal styret i forkant av fremleggelsen gjøre generalforsamlingen oppmerksom på dette.
+
+Brudd på taushetsplikt
+Det er i utgangspunktet ingen direkte rettslige konsekvenser dersom taushetsplikten blir brutt. Dersom brudd på taushetsplikten forårsaker skade, kan den som bryter taushetsplikten bli erstatningsansvarlig etter aksjeloven § 17-1. Styremedlemmer som overtrer bestemmelsen om erstatningsansvar, også kan straffes med bøter eller fengsel i inntil ett år, jf. aksjeloven § 19-1 og aksjeloven § 19-2.

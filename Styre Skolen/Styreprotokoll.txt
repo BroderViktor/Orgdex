@@ -1,0 +1,52 @@
+Styreprotokoll
+
+I forarbeidet til aksjeloven, kommer det frem at styrets plikt til å føre protokoll har sin bakgrunn i at en styreprotokoll skaper notoritet i forhold til styrets vedtak. Det vil si at formålet med å føre protokoll er at man i etterkant skal kunne dokumentere når vedtakene er foretatt, hva vedtaket gikk ut på, og hvem som foretok det. Dette har stor betydning dersom det på et senere tidspunkt blir reist spørsmål om vedtaket, for eksempel i en tvistesak.
+
+Bestemmelser om føring av protokoll er nedfelt i aksjeloven der man av aksjeloven § 6-29 kan lese følgende lovtekst:
+
+§ 6-29. Styreprotokoll
+
+(1) Det skal føres protokoll over styrebehandlingen. Den skal minst angi tid og sted, deltakerne, behandlingsmåten og styrets beslutninger. Det skal fremgå at saksbehandlingen oppfyller kravene i § 6-24.
+
+(2) Er styrets beslutning ikke enstemmig, skal det angis hvem som har stemt for og imot. Styremedlem og daglig leder som ikke er enig i en beslutning, kan kreve sin oppfatning innført i protokollen.
+
+(3) Protokollen skal signeres av alle de medlemmer som har deltatt i styrebehandlingen. Har styret minst fem medlemmer, og er beslutning truffet i møte, kan styret velge to til å signere. I så fall skal kopi av protokollen sendes samtlige styremedlemmer med frist for merknader, som i tilfelle kan kreves inntatt i protokollen.
+
+(4) Protokollen skal oppbevares i hele selskapets levetid.
+
+Innhold
+Styreprotokollen skal inneholde en rekke opplysninger der minstekravet er sted, tidspunkt, hvem som deltok, behandlingsmåten og styrets beslutninger. Det skal også fremgå om styret var i posisjon til å fatte beslutning i henhold tilaksjeloven § 6-24, Det vil si at mer enn 50 prosent av styremedlemmene deltar i styrebehandlingen, og at alle medlemmene har fått anledning til å delta.
+
+Der styret ikke er enstemmig i et vedtak, skal protokollen vise hvem som har stemt for og imot beslutningen. Styremedlemmer og daglig leder som ikke er enig i en beslutning, har rett til å få ført sin oppfatning i protokollen. Denne retten er viktig å benytte, for eksempel dersom det på et senere tidspunkt skulle oppstå en gransking eller erstatningssak.
+
+Selv om det er en rekke forhold som skal med i en protokoll bare for å oppfylle lovens minimumskrav, er det det fullt mulig for styrets flertall å bestemme at protokollen skal gjøres enda mer utfyllende. Dette kan for eksempel være informasjon om prosessen som har ledet til et vedtak. Videre skal det fremkomme i protokollen dersom et styremedlem var inhabil i en konkret sak, jf.aksjeloven § 6-27.
+
+Utover den rett et styremedlem, og daglig leder, har til å få protokollert uenighet i en beslutning, åpner ikke loven for at det enkelte styremedlem eller daglig leder har noen rett til å kreve å få protokollført enkeltuttalelser, synspunkter eller lignende. Uenighet som gjelder om protokollen stemmer med de faktiske forhold (deltakere eller beslutning e.l), vil styremedlemmene kunne kreve å få med i protokollen, eventuelt som en merknad. Vanligvis blir slike tilfeller løst ved at protokollutkastet blir endret til en felles versjon som alle kan enes om, før protokollen signeres.
+
+Signering
+Signering av protokollen kan skje i styremøtet, forutsatt at protokollen gjøres ferdig mens styret ennå er samlet. Det er imidlertid ikke noe til hinder for at protokollasjonen gjøres ferdig etterpå og signeringen skjer senere.
+
+I aksjeloven § 6-29 (3) kan vi lese at protokollen skal signeres av alle medlemmene som har deltatt i styrebehandlingen. Har styret minst fem medlemmer kan styret velge to til å signere. I så fall skal kopi av protokollen sendes samtlige styremedlemmer med frist for merknader. Det vil si at det bare er styremedlemmer som har deltatt i styrebehandlingen, som er pliktige til å signere styreprotokollen. Loven legger dermed ikke opp til at daglig leder, eller styremedlemmer som ikke var til stede under styrebehandlingen, skal signere protokollen. Imidlertid er vår erfaring at mange styrer praktiserer at styremedlemmer som ikke har vært til stede under saksbehandlingen oppfordres til å signere at protokollen er lest. Dette for å få dokumentert at hele styret er kjent med de vedtak som er fattet. En slik praksis er å anbefale, selv om det ikke foreligger formelle krav.
+
+Loven legger dermed ikke opp til at daglig leder, eller styremedlemmer som ikke var til stede under styrebehandlingen, skal signere protokollen.
+
+Når det gjelder selve signeringen, så er elektronisk signatur sidestilt med signering på papir. Det vil si at signering av protokoll kan skje ved bruk av BankID, Orgbrain eSign eller andre elektroniske løsninger som anses betryggende. For eksempel vil styrer som benytter en digital portal, kunne signere protokollen ved bruk av sin smarttelefon kort tid etter at møtet er avholdt. Digital signering reduserer dermed en god del av de praktiske utfordringer som man tidligere hadde når det måtte innhentes underskrift på papir.
+
+Format og lagring
+Protokoller skal oppbevares i hele selskapets levetid, jf. aksjeloven § 6-29 (4). Imidlertid står det også i aksjeloven at ved oppløsning av selskap (jf. aksjeloven § 16-10 (3)), ved fusjon (jf.aksjeloven § 13-17 (3)) og ved fisjon (jf. aksjeloven § 14-8 (1)) skal dokumentasjonen oppbevares i minst ti år etter regnskapsårets slutt. Det er å anta at det er de sistnevnte reglene som gjelder.
+
+
+Dokumentasjon som kreves utarbeidet etter aksjeloven, slik som styreprotokoll, skal utarbeides og oppbevares på betryggende måte og være tilgjengelig fra Norge (aksjeloven § 1-6 (1)). Historisk har det vært krav til at styreprotokoll skulle skrives på papir, men i forbindelse med revidering av aksjeloven i 2017 ble det åpnet for at elektronisk dokumentasjon skal være sidestilt med papirdokumentasjon, jf.aksjeloven § 1-6 (2). Imidlertid er det fortsatt slik at protokollen skal være i lesbar form, jf. aksjeloven § 1-6 (1), noe som utelukker bruk av lyd- og videoopptak som protokoll.
+
+Frist
+Loven setter ingen frist for når en styreprotokoll skal være ferdigstilt, men da man gjerne glemmer detaljer etter hvert som tiden går, bør en protokoll være ferdigstilt relativt kort tid etter at møtet er avholdt. En rask ferdigstillelse av protokollen er også å anbefale sett opp mot lovens intensjon, nemlig å få notoritet i forhold til styrets vedtak.
+
+Det vil fort kunne oppstå uenighet rundt formulering av et konkret vedtak dersom det oppstår en kritisk hendelse før protokollen er signert. Med mindre det er kort tid til neste styremøte, bør protokollen signeres før den tid.
+
+Innsyn
+Selv om det føres protokoll for å skape notoritet, er styreprotokollen i utgangspunktet et internt dokument for styret. Den enkelte aksjonær har derfor ingen innsynsrett i protokollen eller rett til å få opplyst om hva som er protokollert utover det som følger av ledelsens opplysningsplikt på generalforsamlingen i henhold tilaksjeloven § 5-15. I tillegg har granskere rett til innsyn i henhold tilaksjeloven § 5-27.
+
+Ansvar for føring
+Selv om det ikke kommer eksplisitt frem i aksjeloven, er det å anta at det er styreleder, gjennom sin rolle som møteleder, som er ansvarlig for at det blir ført protokoll fra styrebehandlingen. Deltar ikke styreleder ligger ansvaret hos den som blir valgt til å lede styrebehandlingen, jf.aksjeloven § 16-19 (3).
+
+I mindre selskaper er det ofte daglig leder eller styrets leder som skriver protokollen, mens det i større selskaper ofte er en egen person fra administrasjonen (styresekretær) som har denne oppgaven. Større selskaper velger ofte å utarbeide en styreinstruks som blant annet beskriver hvordan man skal gå frem ved føring av protokoll.

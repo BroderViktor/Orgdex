@@ -1,0 +1,204 @@
+Generalforsamling
+
+Generalforsamling er selskapets øverste og viktigste organ, og består av alle selskapets eiere (aksjonærer). Gjennom generalforsamlingen utøver aksjeeierne den øverste myndighet i selskapet. Aksjeloven § 5-1 sier følgende:
+
+§ 5-1. Generalforsamlingens myndighet
+
+(1) Gjennom generalforsamlingen utøver aksjeeierne den øverste myndighet i selskapet.
+
+(2) Når selskapet har bedriftsforsamling, eller når det er avtalt at selskapet ikke skal ha bedriftsforsamling, gjelder reglene i § 6-35, jf lov om allmennaksjeselskaper § 5-1 annet ledd.
+
+Av første ledd fremkommer det at gjennom generalforsamlingen utøver aksjeeierne den øverste myndighet i selskapet. Her blir det fastsatt to viktige forhold. Det første går ut på at generalforsamlingen er selskapets øverste organ. Det andre går ut på at aksjeeiernes eiermyndighet i selskapet må utøves kollektivt gjennom generalforsamlingen.
+
+Aksjeeierne har rett til å delta i generalforsamlingen, enten selv eller ved fullmektig etter eget valg, jf. aksjeloven § 5-2 (1). Imidlertid har aksjeeierne ingen plikt til å delta i generalforsamlingens møter eller i avstemninger som foretas uten møte.
+
+Alle aksjeeiere har også rett til å få saker behandlet på generalforsamlingen. Imidlertid må saken være meldt skriftlig til styret senest syv dager før fristen for innkalling til generalforsamling. Dersom innkallingen allerede har funnet sted, skal det foretas en ny innkalling dersom fristen for innkalling til generalforsamling ikke er ute, jf. aksjeloven § 5-11.
+
+Selv om generalforsamlingen er selskapets øverste myndighet, er generalforsamlingen bare et internt organ.
+
+Selv om generalforsamlingen er selskapets øverste myndighet, er generalforsamlingen bare et internt organ. Dette betyr at generalforsamlingen ikke representerer selskapet utad ved for eksempel avtaleinngåelse eller overfor offentlige myndigheter.
+
+Utenfor generalforsamlingen har aksjeeierne heller ingen myndighet i selskapet. Aksjeeierne kan derfor bare instruere styret eller de enkelte styremedlemmene gjennom flertallsvedtak i generalforsamlingen.
+
+Ordinær generalforsamling
+Generalforsamlingen kan enten være ordinær eller ekstraordinær. Den ordinære foregår årlig og er obligatorisk for alle aksjeselskaper. I aksjeloven § 5-5 kan man lese:
+
+§ 5-5. Ordinær generalforsamling
+
+(1) Innen seks måneder etter utgangen av hvert regnskapsår skal selskapet holde ordinær generalforsamling.
+
+(2) På den ordinære generalforsamlingen skal følgende saker behandles og avgjøres:
+
+godkjennelse av årsregnskapet og eventuell årsberetning, herunder utdeling av utbytte;
+andre saker som etter loven eller vedtektene hører under generalforsamlingen.
+(3) Årsregnskapet og eventuell årsberetning og revisjonsberetning skal senest en uke før generalforsamlingen sendes til hver aksjeeier med kjent adresse.
+
+Ifølge første ledd skal den ordinære generalforsamlingen avholdes årlig, innen seks måneder etter utgangen av regnskapsåret. Dette betyr at ordinær generalforsamling normalt må være avholdt innen utgangen av juni.
+
+Hvilke saker selskapet er pliktig til å behandle på den ordinære generalforsamlingen er beskrevet i andre ledd. Dette gjelder altså årsregnskapet og eventuell årsberetning, samt utdeling av utbytte, dersom det er aktuelt.
+
+I tillegg skal også «andre saker som etter loven eller vedtektene hører under generalforsamlingen», behandles. Med mindre vedtektene legger til noe mer, vil dette i praksis innebære styrevalg (aksjeloven § 6-6), samt fastsettelse av godtgjørelse til styret (§ 6-10) og revisor (§ 7-1 (2)).
+
+Det er naturlig å sende ut årsregnskapet og de øvrige dokumentene som er nevnt i tredje ledd, i forbindelse med innkallingen.
+
+Ekstraordinær generalforsamling
+Dersom det skal avholdes generalforsamling utenom den ordinære, må dette skje i henhold til aksjeloven § 5-6.
+
+§ 5-6. Ekstraordinær generalforsamling
+
+(1) Styret kan bestemme at det skal innkalles til ekstraordinær generalforsamling.
+
+(2) Styret skal innkalle til ekstraordinær generalforsamling når revisor som reviderer selskapets årsregnskap, eller aksjeeiere som representerer minst en tidel av aksjekapitalen, skriftlig krever det for å få behandlet et bestemt angitt emne. Styret skal sørge for at generalforsamlingen holdes innen en måned etter at kravet er fremsatt.
+
+(3) Dersom samtlige aksjeeiere samtykker til at det skal holdes ekstraordinær generalforsamling, kan generalforsamlingen holdes uten vedtak fra styret etter første ledd
+
+Ifølge første ledd kan styret bestemme at det skal innkalles til ekstraordinær generalforsamling. Bestemmelsen sier ikke noe om hva som kan være foranledningen til en slik beslutning, men eksempel på dette kan være at styret ønsker å gjennomføre tiltak som forutsetter generalforsamlingsvedtak, slik som kapitalforhøyelse eller fusjon. Videre fremkommer det at styret også skal kalle inn til en ekstraordinær generalforsamling dersom revisor eller aksjeeiere som representerer minst en tidel av aksjekapitalen, krever det.
+
+Loven gir i tredje ledd aksjeeierne mulighet til å holde ekstraordinær generalforsamling uten styrevedtak. Dette legger til rette for at selskap med få eiere kan fatte generalforsamlingsvedtak på en relativt enkel og uformell måte.
+
+Gjennomføring av generalforsamling
+Det er aksjeloven § 5-8 som beskriver kravene til gjennomføring av generalforsamling. Av loven kan man lese:
+
+§ 5-8 Gjennomføring av generalforsamling
+
+(1) Generalforsamlingen skal holdes som møte. Styret bestemmer møteformen. Styrets myndighet etter annet punktum kan begrenses i vedtektene.
+
+(2) Styret skal sørge for en forsvarlig gjennomføring av generalforsamlingen.
+
+(3) Blir generalforsamlingen holdt som fysisk møte, gjelder følgende regler:
+
+Generalforsamlingen skal holdes i den kommune der selskapet har sitt forretningskontor, med mindre annet er fastsatt i vedtektene. Generalforsamlingen kan holdes et annet sted hvis det er nødvendig av særlige grunner.
+Aksjeeierne har rett til å delta elektronisk, med mindre styret finner at det foreligger saklig grunn for å nekte. Reglene i fjerde ledd gjelder tilsvarende.
+(4) Blir generalforsamlingen holdt som elektronisk møte, skal styret sørge for at det foreligger systemer som sikrer at lovens krav til generalforsamling er oppfylt. Systemene må sikre at deltakelsen og stemmegivningen kan kontrolleres på en betryggende måte, og det må benyttes en betryggende metode for å autentisere avsenderen. I vedtektene kan det fastsettes nærmere krav til elektronisk deltakelse på generalforsamlingen.
+
+(5) Innkaller tingretten eller annen offentlig myndighet til generalforsamling, bestemmer disse møteformen.
+
+(6) Departementet kan i forskrift gi nærmere bestemmelser om elektronisk deltakelse på generalforsamlingen.
+
+Styret bestemmer møteform
+Som det fremkommer i første ledd skal generalforsamlingen holdes som et møte, der det er styret som bestemmer om møtet skal være fysisk eller digitalt. Dette kan besluttes gjennom styrevedtak. Styret bør da ta stilling til om kravet til forsvarlighet er oppfylt.
+
+Når styret skal vurdere forsvarlighetskravet i andre ledd, er hovedregelen at behandlingsmåten ivaretar aksjeeiernes rettigheter. Er det tvil blant styremedlemmene om behandlingsmåten oppfyller kravet til forsvarlig saksbehandling, bør styrets vurdering fremgå av styreprotokollen. Det samme gjelder hvis styret forventer at beslutningen er kontroversiell blant selskapets aksjeeiere. Dette gir notoritet for at styret har gjort en reell vurdering av om kravet til forsvarlighet er oppfylt. Dersom styret ikke kan godtgjøre at forsvarlighetskravet er vurdert, kan dette være et moment som tilsier at lovens krav ikke er oppfylt. Dette kan blant annet gi grunnlag for søksmål om at vedtak på generalforsamlingen ikke er gyldig.
+
+Digitalt møte
+Blir generalforsamlingen holdt som et digitalt møte, må styret sørge for at det foreligger tekniske systemer som sikrer at lovens krav til generalforsamling er oppfylt. Systemene må sikre at deltakelsen og stemmegivningen kan kontrolleres på en betryggende måte, og det må benyttes en betryggende metode for å autentisere avsenderen, for eksempel gjennom et unikt brukernavn og passord.
+
+Aksjeeierne har rett til å delta digitalt
+Uavhengig om styret vedtar at det skal avholdes fysisk eller digital generalforsamling har aksjeeierne rett til å delta digitalt, med mindre styret finner saklig grunn for å nekte, jf. aksjeloven § 5-8 (3 b). Et eksempel på en saklig grunn for å nekte, som nevnes i forarbeidet til loven, er der generalforsamlingen skal behandle saker av sensitiv karakter. Da kan det være grunn til å nekte deltakelse over telefon eller andre enkle digitale hjelpemidler, som ikke gir en mulighet for å kontrollere hvem som følger diskusjonen.
+
+Som en følge av at aksjeeierne har en rett til å delta digitalt må styret legge til rette for at deltakelse med elektronisk hjelpemiddel kan likestilles med fysisk tilstedeværelse. Det betyr at aksjeeieren må ha den samme mulighet til å følge forhandlingene, ta ordet og avgi stemme, som de aksjeeierne som er til stede i møtelokalet. Styret må derfor sørge for at selskapet har på plass en løsning som ivaretar disse kravene, slik at aksjonærenes rettigheter kan bli ivaretatt. Dette må anses som et ledd i styrets forberedelse av generalforsamlingen.
+
+
+Selv om det medfører en ekstra kostnad for selskapet å gå til anskaffelse av digitale løsninger, slik som en moderne styre- og generalforsamlingsportal, er ikke kostnadene alene tilstrekkelig grunn for at styret kan nekte elektronisk deltakelse. I forarbeidet til loven går det frem at dette er en kostnad selskapet må ta, så lenge kostnadene er å anse som rimelige, sett i forhold til selskapets størrelse, aksjonærstruktur og de kostnadene fysisk deltakelse vil påføre aksjonærene.
+
+Dersom det skulle oppstå en situasjon der styret vedtar at det ikke vil være anledning for aksjonærene til å delta digitalt, bør dette komme frem i innkallingen til generalforsamlingen. I slike tilfeller vil de aksjeeierne som er uenig i styrevedtak kunne bruke dette som grunnlag ved et eventuelt søksmål om gyldigheten av generalforsamlingens vedtak, jf. aksjeloven § 5-22.
+
+Forenklet generalforsamling
+Det er ikke bare aksjeloven § 5-8 som åpner for digitalt møte. I forbindelse med modernisering av aksjeloven i 2013 kom det inn en bestemmelse i aksjeloven § 5-7 om adgang til forenklet generalforsamlingsbehandling.
+
+§ 5-7. Adgang til forenklet generalforsamlingsbehandling
+
+Dersom ingen aksjeeiere motsetter seg det, kan en sak behandles på generalforsamlingen etter reglene i bestemmelsen her. Generalforsamlingen kan for eksempel avholdes uten krav til syv dagers innkallingsfrist. For gjennomføring av forenklet generalforsamling gjelder følgende regler:
+
+Samtlige aksjeeiere skal gis mulighet til å delta i behandlingen av saken på egnet måte.
+Styremedlemmene og eventuelt daglig leder skal gis mulighet til å uttale seg om saken. Det samme gjelder revisor, dersom saken er av en slik art at dette må anses som nødvendig. Styremedlemmene kan kreve at saken blir behandlet av generalforsamlingen i møte.
+Styreleder eller den som generalforsamlingen velger til å lede generalforsamlingsbehandlingen, skal sørge for at det føres protokoll, jf § 5-7 a.
+Generalforsamlingen kan holdes uten å følge kravene i §§ 5-8 til 5-16.
+Aksjeloven § 5-7 åpner for at det kan gjennomføres forenklet generalforsamlingsbehandling uten å følge de detaljerte reglene som fremkommer i aksjeloven §§ 5-8 til 5-16.
+
+Det er ikke nødvendig å innhente eksplisitt samtykke fra samtlige aksjeeiere ved forenklet generalforsamlingsbehandling. Det er tilstrekkelig at selskapet på en betryggende måte sikrer seg at ingen aksjeeiere motsetter seg forenklet behandling av de konkrete saker som generalforsamlingen skal behandle. Det vil blant annet si at forespørsel om forenklet generalforsamling ikke kan legges frem for aksjeeierne uten at det er konkretisert hvilke saker som skal behandles. Sakene kan for eksempel distribueres digitalt, slik at alle aksjonærer får anledning til å delta i behandlingen av saken(e).
+
+Det er etter bestemmelsen ikke noe krav om at samtlige aksjeeiere faktisk skal delta, men det er et vilkår at alle skal gis mulighet til å delta i behandlingen på en egnet måte. Dette betyr at aksjeeierne må gis en rimelig frist for å gi en eventuell tilbakemelding. Selskapet bør også gjøre rede for hvordan generalforsamlingen skal avvikles, det vil for eksempel si om den skal gjennomføres ved bruk av en digital styre- og generalforsamlingsportal eller på annen måte.
+
+Styremedlemmene og eventuelt daglig leder skal ved forenklet generalforsamling gis mulighet til å uttale seg om saken. Styremedlemmene kan kreve at saken blir behandlet av generalforsamlingen i møte. Dersom saken er av en slik art at dette må anses som nødvendig, skal saken forelegges for revisor. I tillegg er det eget krav om protokollføring.
+
+§ 5-7 a. Protokoll ved forenklet generalforsamlingsbehandling
+
+(1) Protokollen skal angi at saken er behandlet etter § 5-7, og tidspunktet for behandlingen.
+
+(2) Generalforsamlingens beslutning skal inntas i protokollen. I selskap med flere enn én aksjeeier skal protokollen angi antallet avgitte stemmer og hvor mange aksjer som har stemt for og imot beslutningen. I den utstrekning dette er relevant, skal det også angis hvilken andel av aksjekapitalen de avgitte stemmer representerer. En fortegnelse over hvilke aksjeeiere som har deltatt i behandlingen av saken, skal inntas i eller vedlegges protokollen.
+
+(3) Protokollen skal dateres og signeres av den som er styrets leder på signeringstidspunktet eller av den som generalforsamlingen utpeker. Protokollen skal sendes til samtlige aksjeeiere.
+
+(4) Protokollen og fortegnelse over aksjeeiere som nevnt i annet ledd fjerde punktum, skal oppbevares i hele selskapets levetid. Protokollen skal holdes tilgjengelig for aksjeeierne hos selskapet.
+
+Krav til protokoll ved forenklet generalforsamlingsbehandling er langt på vei den samme som for øvrige generalforsamlinger, men det er noen forskjeller. Blant annet skal protokollen angi at saken er behandlet etter aksjeloven § 5-7, og tidspunktet for behandlingen. Der behandlingen blir gjennomført over flere dager, kan protokollen opplyse om den siste dato.
+
+Det er ikke krav om at protokollen skal angi hvilke av bestemmelsene i aksjeloven §§ 5-8 til 5-16 som er fraveket.
+
+Protokollen skal dateres og signeres av den som er styrets leder på signeringstidspunktet eller av den som generalforsamlingen utpeker. Der generalforsamlingen velger nytt styre eller ny styreleder, er det den nye styrelederen som skal signere protokollen. Det er ingen krav til å få noen til å medsignere protokollen slik som for øvrige generalforsamlinger.
+
+Deltakelse på generalforsamlinger
+Styreleder har plikt til å delta på generalforsamling som holdes som møte. Av aksjeloven § 5-4 kan man lese:
+
+§ 5-4. Ledelsens rett og plikt til å være til stede på generalforsamlingen
+
+(1) Holdes generalforsamlingen som møte, skal styrelederen og daglig leder delta. Blir generalforsamlingen holdt som fysisk møte, skal styrelederen og daglig leder delta fysisk. Ved gyldig forfall skal det utpekes en stedfortreder. Dersom samtlige aksjeeiere samtykker, kan det gjøres unntak fra første til tredje punktum. Andre styremedlemmer kan delta på generalforsamlingen når generalforsamlingen holdes som møte. Blir generalforsamlingen holdt som fysisk møte, kan slike styremedlemmer delta elektronisk.
+
+(2) Styremedlemmene og daglig leder har rett til å uttale seg på generalforsamlingen.
+
+Ifølge første ledd skal både styreleder og daglig leder delta på generalforsamlinger som avholdes som møte. Plikten til å delta må ses i sammenheng med ledelsens opplysningsplikt etter aksjeloven § 5-15 der en aksjeeier kan kreve opplysninger fra ledelsen. Ved gyldig forfall skal det utpekes en stedfortreder. Med mindre det er valgt en nestleder i styret, må styret utpeke en stedfortreder dersom styrets leder har gyldig forfall. Daglig leder kan selv utpeke sin stedfortreder.
+
+For selskaper som har revisor, skal revisor delta i generalforsamlingen når de saker som skal behandles er av en slik art at dette anses som nødvendig. For øvrig har revisor rett til å delta i generalforsamlingen, jf. aksjeloven § 7-5.
+
+Innkalling til generalforsamling
+Det er normalt styret som innkaller til generalforsamling (jf. aksjeloven § 5-9 (1)), men det er noen unntak. Ved forenklet generalforsamling (jf. aksjeloven § 5-7) kan innkalling skje uten at styret har sendt innkalling etter aksjeloven § 5-9 (1). I tillegg er det slik at dersom samtlige aksjeeiere samtykker til at det skal holdes ekstraordinær generalforsamling, kan generalforsamlingen holdes uten vedtak fra styret, jf. aksjeloven § 5-6 (3).
+
+
+Krav til innkalling er beskrevet i aksjeloven § 5-10, som sier at dersom ikke vedtektene sier noe annet skal innkallingen være sendt skriftlig (kan også sendes digitalt) til alle aksjonærer med kjent adresse en uke før generalforsamlingen skal holdes. I utgangspunktet skal innkallingen sendes til adressen som er oppgitt i aksjeeierboken. Kjenner selskapet imidlertid til at en aksjeeier har skiftet adresse, må innkallingen sendes til den nye adressen.
+
+Innkallingen skal opplyse om møteformen, og eventuelt om fremgangsmåten for å delta og stemme elektronisk. I selskaper som åpner for forhåndsstemme, skal innkallingen opplyse om fremgangsmåten for dette.
+
+Innkallingen skal angi tid, sted og sakene som skal behandles. Dette innebærer at sakene som skal behandles, må være beskrevet så konkret at mottakeren får et tydelig bilde av dem. Det er dermed ikke anledning for styret å legge inn et «eventuelt»-punkt på agendaen. Innkallingen skal gi aksjonærene mulighet til å velge om de ønsker å delta eller om det ikke, ut fra sakene som skal behandles. Forslag om å endre vedtektene skal alltid gjengis i sin helhet i innkallingen. Det er styret som har ansvar for å utarbeide forslag til dagsorden i samsvar med det som er bestemt i loven og vedtektene.
+
+Styret og daglig leder bør begynne å planlegge generalforsamlingen i god tid før innkallingen sendes. Her må man sikre at tidspunktet passer, og at man har tilgang til egnede lokaler og digital infrastruktur.
+
+Alt av dokumentasjon må utarbeides og godkjennes av styret. Er det valg av nye styremedlemmer, må det være en ryddig prosess rundt dette, slik at man kan ha en innstilling klar ved innkalling. Det samme gjelder i forhold til fastsettelse av honorar til styret. Den praktiske gjennomføringen av utsendelsen kan overlates til selskapets administrasjon.
+
+Et allmennaksjeselskap har anledning til å fastsette i vedtektene at aksjeeiere som ikke har meldt seg på innen en frist i forkant av generalforsamlingen kan nektes adgang, jf. allmennaksjeloven § 5-3. Aksjeloven åpner ikke opp for en slik mulighet (NB: det er et lovarbeid på gang som åpner for slik mulighet for aksjeselskap som er registrert i en verdipapirsentral), så for aksjeselskaper er det retten til å delta i aksjeloven § 5-2 som gjelder. Et eventuelt ønske fra selskapet om forhåndspåmelding vil altså kun være veiledende.
+
+Adgang til å forhåndsstemme
+Det kan fastsettes i vedtektene at aksjeeierne på generalforsamlinger skal kunne avgi sin stemme skriftlig, også ved bruk av elektronisk kommunikasjon, i en periode før generalforsamlingen. For slik stemmegivning skal det benyttes en betryggende metode for å autentisere avsenderen, jf. aksjeloven § 5-11 b. Forhåndsstemme vil ofte være hensiktsmessig og praktisk for aksjonærene, så dette er en vedtektsendring som mange selskap bør vurdere å få på plass.
+
+Avholdelse av generalforsamling
+I forkant av generalforsamlingen bør styret gå gjennom punktene som skal behandles på generalforsamlingen, og forberede hvordan sakene skal presenteres, og hvor detaljert presentasjonen skal være. På selve generalforsamlingen åpnes møtet av styrets leder eller av den styret har utpekt, med mindre vedtektene sier noe annet. Denne personen leder generalforsamlingen til møteleder er valgt av generalforsamlingen.
+
+Blir generalforsamlingen holdt som fysisk møte, skal møtelederen delta fysisk. Velger generalforsamlingen møteleder, må denne velges blant dem som er fysisk til stede på generalforsamlingen, jf. aksjeloven § 5-12.
+
+Normalen er nok at styreleder både åpner møtet og deretter velges til møteleder, men særlig i tilfeller der det er et høyt konfliktnivå vil det kunne være fornuftig om styret legger til rette for at det kan velges en uavhengig møteleder.
+
+Den som åpner generalforsamlingen, skal påse at generalforsamlingen er lovlig innkalt, og at det ikke er noe lovlig hinder for at møtet avholdes. Spørsmålet om generalforsamlingen er lovlig innkalt trenger ikke å legges frem for generalforsamlingen til avgjørelse, med mindre dette er satt opp som et punkt i innkallingen.
+
+Før første avstemning kan skje, skal den som åpner generalforsamlingen sørge for at det blir opprettet en fortegnelse over aksjeeiere som deltar, enten selv eller via fullmektig, samt hvor mange aksjer og andel av stemmene hver av dem representerer, jf. aksjeloven § 5-13. For at dette skal kunne skje på en rask og effektivt måte, må styret i forkant ha sørget for at det er på plass rutiner, system og personell som håndterer dette.
+
+På generalforsamlingen kan bare saker som er meddelt i innkallingen avgjøres, med mindre samtlige av selskapets aksjeeiere (og altså ikke bare alle de som deltar på møtet) samtykker til noe annet. Et unntak fra kravet om at sakene må være angitt i innkallingen, er at den ordinære generalforsamlingen uansett kan avgjøre saker som etter loven eller vedtektene skal behandles på møtet, jf. aksjeloven § 5-14. I tillegg kan generalforsamlingen avgjøre forslag om granskning etter aksjeloven § 5-25 (1) eller forslag om forenklet revisorkontroll etter aksjeloven § 7-7. Dette er noe som styret sjelden legger opp til i innkallingen, da det gjerne uttrykker en mistillit til styrets håndtering. Til sist kan det vedtas å innkalle til ny generalforsamling for å avgjøre forslag fremsatt i møtet.
+
+For at aksjeeierne skal kunne ivareta selskapets interesser på best mulig måte, kan en aksjeeier kreve at styremedlemmer og daglig leder på generalforsamlingen gir opplysninger om forhold som kan innvirke på sakene som generalforsamlingen skal behandle. Dette forutsetter at opplysningene som kreves, kan gis uten uforholdsmessig skade for selskapet, jf. aksjeloven § 5-15.
+
+Hvis en aksjeeier er uenig i at opplysningen blir gitt, må uenigheten avgjøres ved vanlig avstemning. Dersom styret skulle mene at det vil påføre selskapet skade om opplysningen blir gitt, kan ikke opplysningen holdes tilbake hvis generalforsamlingens flertall fastholder sitt standpunkt etter å ha blitt gjort oppmerksom på skademuligheten. Dersom de som er til stede på generalforsamlingen, misbruker opplysningene de mottar til skade for selskapet, vil de kunne gjøres erstatningsansvarlige, jf. aksjeloven § 17-1 (1).
+
+Avstemning
+Aksjeloven har ingen nærmere regler om gjennomføringen av avstemningen. Dette er opp til møtelederen å bestemme. Avstemningen kan gjennomføres som en åpen avstemning hvor møtelederen ber de tilstedeværende uttrykke sin oppfatning av et fremsatt forslag, eventuelt ved digital stemmegivning eller ved håndsopprekning. Møtelederen tilkjennegir deretter sin oppfatning av resultatet og sørger for at dette blir nedskrevet i protokollen. Det kan også besluttes skriftlig (hemmelig) avstemning, og normalt bør møtelederen beslutte dette hvis det blir krevd av en aksjeeier.
+
+I motsetning til styremøter kan generalforsamlingen i de fleste saker angitt i innkallingen foreta beslutninger uten hensyn til antall fremmøtte. Imidlertid finnes det enkelte særtilfeller som krever tilslutning fra samtlige aksjeeiere, jf. aksjeloven § 5-20, aksjeloven § 8-6 (3) og aksjeloven § 16-8.
+
+En beslutning av generalforsamlingen krever normalt alminnelig flertall av de avgitte stemmene.
+
+En beslutning av generalforsamlingen krever normalt alminnelig flertall av de avgitte stemmene. Står stemmetallet likt, gjelder det som møtelederen slutter seg til, også når denne ikke har stemmerett, jf. aksjeloven § 5-17 (1). Ved vedtektsendring kreves det imidlertid tilslutning fra minst to tredeler både av de avgitte stemmer og den aksjekapitalen som er representert på generalforsamlingen, jf. aksjeloven § 5-18.
+
+Protokoll fra generalforsamling
+I forarbeidet til aksjeloven fremgår det at å føre protokoll fra generalforsamlingen har sin bakgrunn i at en protokoll skaper notoritet i forhold til generalforsamlingens vedtak. Det vil si at en protokoll vil gjøre det klart for ettertiden hva som ble vedtatt, og hva som selskapet må forholde seg til som generalforsamlingens vedtak.
+
+§ 5-16. Protokoll
+
+(1) Møtelederen skal sørge for at det føres protokoll for generalforsamlingen.
+
+(2) Protokollen skal angi tid for generalforsamlingen og møteform. I protokollen skal generalforsamlingens beslutning inntas med angivelse av utfallet av avstemningene. Protokollen skal angi antallet avgitte stemmer, og hvor mange aksjer og hvilken andel av aksjekapitalen de avgitte stemmene representerer, samlet og for og mot den enkelte beslutningen, i den utstrekning dette er relevant for utfallet av avstemningen. Fortegnelsen over aksjeeiere som nevnt i § 5-13 skal inntas i eller vedlegges protokollen.
+
+(3) Protokollen skal signeres av møtelederen og minst en annen person valgt av generalforsamlingen blant dem som deltar. Protokollen og fortegnelse over aksjeeiere som nevnt i § 5-13, skal oppbevares på betryggende måte i hele selskapets levetid. Protokollen skal holdes tilgjengelig for aksjeeierne hos selskapet.
+
+Av aksjeloven § 5-16 kan man lese at det er den som blir valgt som møteleder som har ansvaret for at det blir ført protokoll fra generalforsamlingen. Lovens andre ledd lister opp en del forhold som skal inn i protokollen. Det står ikke uttrykkelig at navn på møteleder skal protokolleres, men dette bør fremgå av protokollen. Det er ingen krav om at protokollen skal angi hvem som stemte for eller mot forslag. Loven krever heller ikke at protokollen skal gjengi informasjon fra diskusjonen som ledet til stemmegivningen. Den enkelte aksjeeier har heller ingen krav på å få gjøre en protokolltilførsel, eventuelt en begrunnelse for sin stemmegivning.
+
+Med mindre generalforsamlingen vedtar noe annet, er det møtelederen som bestemmer hva som skal protokolleres.
+
+Protokollen signeres av møtelederen og minst én annen person valgt av generalforsamlingen blant dem som deltar. Den som skal signere protokollen sammen med møtelederen, velges vanligvis i starten av generalforsamlingen.

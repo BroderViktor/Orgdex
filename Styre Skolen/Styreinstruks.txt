@@ -1,0 +1,113 @@
+Styreinstruks
+
+I forarbeidet til dagens aksjelov (NOU 1996:3) står det at utvalget anbefaler at det skal innføres en styreinstruks i selskaper hvor de ansatte har rett til representasjon i styret. En slik instruks skal gi nærmere saksbehandlingsregler for styret. Bestemmelsen begrunnes ut fra hensynet til de ansatte, og tar sikte på å gjøre styrets saksbehandling mer effektiv, slik at styret kan utføre sitt arbeid på en ordnet måte i henhold til en fastlagt forretningsorden. Med en styreinstruks vil de ansatte i styret lettere kunne utføre sitt arbeid da de har en skriftlig veiledning de kan støtte seg til.
+
+En godt utformet styreinstruks, vil ofte føre til bedre struktur på styrearbeidet og dermed effektivisere styrearbeidet. I aksjeselskaper hvor de ansatte har representasjon i styret, ble det i den nye aksjeloven innført krav om å fastsette en styreinstruks, men som en konsekvens av de positive effektene en styreinstruks fører med seg, kan det være fornuftig å ha en slik instruks i alle selskaper.
+
+Når det gjelder lovens formulering, kan vi lese følgende av aksjeloven § 6-23:
+
+§ 6-23. Styreinstruks
+
+(1) I selskaper hvor de ansatte har representasjon i styret, skal styret fastsette en styreinstruks som gir nærmere regler om styrets arbeid og saksbehandling.
+
+(2) Instruksen skal blant annet inneholde regler om hvilke saker som skal styrebehandles og daglig leders arbeidsoppgaver og plikter overfor styret. Instruksen skal også inneholde regler for innkalling og møtebehandling.
+
+(3) Kongen kan gi forskrift om styreinstruks.
+
+Styret i selskap hvor de ansatte har styrerepresentasjon, skal fastsette en styreinstruks som inneholder nærmere regler om styrearbeidet og styrets saksbehandling. Med representasjon for de ansatte siktes det til styrer hvor de ansatte har valgt styremedlemmer ved direkte valg etter aksjeloven § 6-4 eller aksjeloven § 6-5, eller hvor det er styremedlemmer valgt av de ansattes representanter i bedriftsforsamlingen, jf. aksjeloven § 6-35 (1).
+
+
+Implementering
+Styrets leder er ansvarlig for å ta initiativ til å få på plass en styreinstruks i forbindelse med at de ansatte skal ha representasjon i styret. Det er ikke de ansattevalgte styrerepresentantene sitt ansvar å kreve dette.
+
+I styrer hvor det ikke er en lovbestemt plikt å utarbeide styreinstruks, kan styret selv bestemme at det skal utarbeides en instruks for styrets eget arbeid og saksbehandling. Det er styret selv som da vedtar styreinstruksen. I dette ligger det at styrets flertall, også når som helst kan endre styreinstruksen, og også vedta å fravike instruksen i enkelttilfeller.
+
+Innhold
+En styreinstruks skal blant annet inneholde regler om hvilke saker som skal styrebehandles, og daglig leders arbeidsoppgaver og plikter overfor styret. Instruksen skal også inneholde regler for innkalling og møtebehandling. Loven angir imidlertid ikke uttømmende hva styreinstruksen skal inneholde. Utover minstekravene kan det være naturlig å fastsette regler om taushetsplikt, styrets konstituering, gjennomføring av møter og føring av protokoll.
+
+Man kan tenke seg at en instruks burde inneholde samtlige oppgaver som påhviler styret, men hvis man går detaljert gjennom aksjeloven vil man finne mange steder der styret blir pålagt oppgaver. Dette vil fort føre til en instruks som blir ganske omfattende, men med noe begrenset verdi (i og med at det stort sett blir gjentakelser av lovverket). Det er kanskje mer interessant å henvise til lovverket, og heller forsøke å lage regler som klargjør hvordan det konkrete styret ønsker å jobbe i de tilfellene der det er flere måter å innrette seg på. Et eksempel på dette kan være i spørsmålet om varamedlemmer skal få tilsendt alt materiale, eller bare materiale i forbindelse med møter der de er forventet å møte.
+
+Saker som skal behandles
+Styreinstruksen skal inneholde regler om hvilke saker som skal styrebehandles. Imidlertid sier verken loven eller lovforarbeidet noe tydelig om hvordan dette skal fremgå av styreinstruksen. Her kan en legge til grunn at lovens minimumskrav vil være oppfylt ved å ta inn oppgaver med tanke på styrets forvaltningsansvar i henhold til aksjeloven § 6-12, styrets tilsynsansvar i henhold til § 6-13 og styrets plikt til å behandle saker av uvanlig art eller stor betydning etter § 6-14 (2). Videre bør det fremgå at styret skal behandle saker som særskilt lovgivning pålegger styret. Dette gjelder blant annet finansinstitusjoner.
+
+Daglig leders arbeidsoppgaver
+En styreinstruks skal inneholde daglig leders arbeidsoppgaver og plikter overfor styret. Det følger imidlertid også av aksjeloven § 6-14 (1) at daglig leder skal følge de retningslinjer og pålegg styret har gitt. En styreinstruks bør inneholde daglig leders rapporteringsplikt om selskapets virksomhet, stilling og resultatutvikling, jf. aksjeloven § 6-15, samt daglig leders bistand ved forberedelse av styrebehandling, jf. § 6-21.
+
+En god styreinstruks er med på å skape trygghet mellom styret og daglig leder om ansvarsforhold, fullmakter og hvilke forventninger styret har til daglig leder.
+
+Innkalling og møtebehandling
+En styreinstruks skal også inneholde regler for innkalling og møtebehandling. Her bør det minimum stå hvordan styrebehandling skal varsles, og hvilke innkallingsfrister som skal gjelde. Det kan også være fornuftig å vedta regler for behandling av saker der styremedlemmene ikke møtes fysisk.
+
+Styreinstruksens rettslige betydning
+Når det gjelder styreinstruksens betydning, har denne en opplysningsfunksjon. Styremedlemmene kan søke veiledning i styreinstruksen og påberope seg den ved utøvelse av styrevervet. Dette gjelder blant annet ved innkalling og avholdelse av styremøter. Instruksens betydning må imidlertid ikke overvurderes da dette i stor grad også reguleres direkte i aksjeloven og/eller i vedtektene. I den grad styreinstruksen regulerer oppgavefordelingen mellom daglig leder og styret, kan den ha større betydning. Styreinstruksen må i slike tilfeller ses på som en instruks fra styret til daglig leder om hvilke saker som hører inn under styret, og hvilke saker daglig leder kan avgjøre på egen hånd. En slik instruks er daglig leder bundet av.
+
+Om styret skulle overse styreinstruksen, får dette trolig ingen juridiske følger
+
+Styrets flertall kan enten endre eller fravike en styreinstruks, så fremt dette ikke er i strid med lovgivning eller selskapets vedtekter. Et styremedlem som påberoper seg styreinstruksen, kan derfor oppleve at styrets flertall velger å se bort fra styreinstruksen i den aktuelle saken. Om styret skulle overse styreinstruksen, får dette trolig ingen juridiske følger, forutsatt at styret har fulgt loven og selskapets vedtekter. At det har skjedd brudd på styreinstruksen kan normalt heller ikke påberopes overfor tredjemann som grunnlag for at en avtale ikke er gyldig inngått.
+
+Eksempel på styreinstruks
+Hvor omfattende en styreinstruks skal være avhenger av blant annet selskapets størrelse og kompleksitet. Under finner du et eksempel på hvordan en slik instruks kan se ut.
+
+Styreinstruks for «Selskapet AS»
+Denne instruks er ment å gi nærmere saksbehandlingsregler for styret, og skal gjøre styrets saksbehandling mer effektiv, slik at styret kan utføre sitt arbeid på en ordnet måte i henhold til en fastlagt forretningsorden. Instruksen inneholder både lovpålagte krav og interne kjøreregler som styret gjennom denne instruks er blitt enige om å følge.
+
+Styreinstruksen gjelder fra det tidspunkt den blir vedtatt i styret, og kan til hver tid gå til opphør eller endres av styret ved ordinær flertallsbeslutning.
+
+Styrets oppgaver:
+Styret skal sørge for at selskapets virksomhet til enhver tid er forsvarlig organisert. Dette innebærer blant annet at styret skal sørge for at administrasjonen har fastsatt tilfredsstillende rutiner, samt har ressurser og kompetanse til å forvalte selskapet i tråd med fastsatte mål og regulatoriske krav.
+Styret skal føre kontroll med den daglige ledelsen.
+Styret skal holde seg orientert om selskapets økonomiske stilling, plikter og utvikling, og påse at selskapets regnskap og formuesforvaltning er under betryggende kontroll.
+Styret skal sørge for at alle saker som er av uvanlig art eller av stor betydning blir behandlet av styret. Dette innbefatter investeringer av betydelig omfang, vesentlig gjeldsopptak eller større omlegging av selskapets virksomhet.
+Styret skal innkalle til ordinær generalforsamling innen 1. juni. Innkallingen skal sendes senest 7 dager før generalforsamlingen avholdes.
+Ved innkalling til ordinær generalforsamling skal denne inneholde årsregnskapet og eventuell årsberetning og revisjonsberetning. I tillegg skal også andre saker som etter loven eller vedtektene hører under generalforsamlingen behandles. Dette kan for eksempel være utdeling av utbytte, honorar til styret og valg av nye styremedlemmer.
+Styret skal sørge for at vedtak fastsatt av generalforsamlingen blir gjennomført.
+Styret skal sørge for at det innen 30. november blir utarbeidet mål og budsjett for påfølgende år.
+Styret skal minimum annethvert år foreta en evaluering av sitt eget arbeid, der blant annet styrets samlede kompetanse, arbeidsform og møtehyppighet skal evalueres.
+Daglig leders plikter overfor styret
+Selskapets styre er daglig leders nærmeste overordnede. Mellom styremøtene rapporterer daglig leder til styrets leder i saker der dette er naturlig.
+Daglig leder skal i samsvar med lovgivning, retningslinjer og pålegg skjøtte den løpende ledelse og forvaltning av selskapets virksomhet i følge med de retningslinjer og anvisninger styret har meddelt.
+Daglig leder kan ikke uten fullmakt fra styret ta beslutninger i saker som med tanke på omfang eller art er av uvanlig art eller av stor betydning. Dette gjelder blant annet kjøp, salg og/eller pantsettelse av fast eiendom. For øvrig har daglig leder den myndighet som naturlig ligger i daglig leders ansvar etter loven, praksis, ansettelsesavtalen og instruks fra styret. Ved behov kan daglig leder få utvidet fullmakt fra styret.
+Daglig leder skal minst hver måned gi styret underretning om selskapets virksomhet, stilling og resultatutvikling. Styret kan til enhver tid kreve at daglig leder gir styret en nærmere redegjørelse om bestemte saker. Følgende faste rapporter skal gis på ordinære styremøter, perioderegnskap, likviditetsbudsjett, orientering om marked, produkter og organisasjon, store avtaler, etterlevelse av GDPR og forslag til forbedringer.
+Daglig leder skal sammen med styrets leder på første styremøte etter ordinær generalforsamling sette opp forslag til møteplan for neste 12 måneder. Forslaget skal i tillegg til dato inneholde agendapunkter for de sentrale sakene som skal behandles og om de enkelte møtene skal avholdes fysisk eller digitalt.
+Daglig leder skal i samråd med styrets leder forberede de saker som skal og bør behandles på styremøte. Daglig leder skal sørge for en tilfredsstillende kvalitetssikring av beslutningsgrunnlaget slik at avgjørelser ikke tas på feil grunnlag.
+Daglig leder har et selvstendig ansvar å innkalle til ekstraordinært styremøte dersom det oppstår en hendelse som krever at styret samles.
+Daglig leder plikter å delta i styremøter og har talerett i alle saker, men ikke stemmerett. Styret kan bestemme at daglig leder ikke skal delta ved behandling av enkeltsaker. Dette vil typisk være aktuelt i saker som berører daglig leder selv.
+Dersom daglig leder er forhindret fra å delta på styremøte skal dette så snart som mulig varsles til styrets leder.
+Daglig leder skal sørge for at styrets vedtak blir iverksatt. Daglig leder skal også påse at selskapets ansatte og andre involverte parter får tilstrekkelig informasjon om styrets vedtak.
+Daglig leder skal underrette styret når forutsetningene for et tidligere vedtak som har betydning for driften, er vesentlig endret.
+Oppsigelse som selskapet mottar fra personer i ledelsen eller andre nøkkelansatte, skal omgående meldes til styrets leder.
+Daglig leder plikter å delta på generalforsamlinger. Ved deltagelse skal daglig leder etter beste evne ha tilgjengelig opplysninger slik at det kan bli gitt svar til aksjonærene på relevante saker med tanke på økonomi, regnskap og andre saker som er til beslutning.
+Daglig leder skal underrette styrets leder om eget fravær utøver tre dager ved ferie og sykdom.
+Styret skal årlig gjennomføre en systematisk evaluering av daglig leder.
+Møtefrekvens og innkalling
+Norsk og engelsk kan benyttes som arbeidsspråk ved innkalling til styremøte.
+Det skal avholdes minimum ett styremøte annenhver måned.
+Styrets leder skal sørge for at styret får til behandling de saker som hører til under styret. Dette omfatter blant annet saker som etter selskapets forhold er av uvanlig art og/eller stor betydning. Dette kan for eksempel være inngåelse av større avtaler.
+Styret skal behandle saker i møte. Styrets leder bestemmer om møtet skal avholdes som et fysisk møte, digitalt møte eller en kombinasjon. Informasjon om møteform skal komme frem i innkallingen. Mer enn halvdelen av styrets medlemmer kan kreve at møtet blir holdt som fysisk eller digitalt møte.
+Daglig leder skal i samråd med styrets leder forberede de saker som skal og bør behandles. Saksdokumenter skal inneholde tilfredsstillende beslutningsgrunnlag.
+Der det foreligger saker til beslutning skal innkallingen inneholde administrasjonens forslag til vedtak.
+Styrets leder innkaller til møte. Innkalling til styremøte, med all underdokumentasjon, skal være publisert i selskapets digitale styreportal senest syv dager før styrebehandling, med mindre presserende forhold tilsier kortere innkallingstid.
+Dersom et styremedlem melder forfall til et møte, og det finnes vararepresentant for denne, så skal Styrets leder så raskt som mulig sørge for at varamedlem blir innkalt.
+Varamedlemmer skal motta saksdokumenter, men skal normalt ikke delta på styremøter.
+Behandling av saker
+Styreleder er møteleder i styremøtene. Dersom styreleder er forhindret fra å delta på et styremøte, skal styret velge et annet styremedlem som møteleder.
+Daglig leder, eller personen som denne utpeker, skal stå for presentasjon av den enkelte styresak.
+Så lenge behandlingsmåten er betryggende, kan styret treffe beslutning når mer enn halvparten av styremedlemmene er til stede i møte. Styret kan likevel ikke treffe beslutning uten at alle styremedlemmene er gitt anledning til å delta i behandlingen av saken.
+Et styremedlem kan ikke delta i behandlingen eller avgjørelsen av spørsmål som har slik særlig betydning for egen del, eller for noen nærstående, at medlemmet må anses for å ha fremtredende personlig eller økonomisk særinteresse i saken. Det samme gjelder for daglig leder.
+Styrebeslutning treffes ved flertallsvedtak blant de styremedlemmer som deltar i behandlingen av saken. Ved stemmelikhet gjelder det som møtelederen har stemt for. De som har stemt for et forslag som innebærer en endring av en etablert tilstand i selskapet, må likevel alltid utgjøre mer enn 1/3 av samtlige styremedlemmer.
+På slutten av hvert styremøte skal det være en gjennomgang uten at noen fra administrasjon (herunder daglig leder) er til stede. Her skal styret diskutert styremedlemmers inntrykk av daglig leders innsats og dynamikken i organisasjon. Videre skal styret vurderes hvordan styremøtet er blitt gjennomført, med henblikk på mulige forbedringer ved senere styremøter. Styrets leder skal i etterkant av møte gi daglig leder en tilbakemelding på resultat av styrets diskusjon.
+Protokoll
+Protokollen skal alltid inneholde møtetidspunkt, sted, deltagere, behandlingsmåte, styrets beslutning og om saksbehandlingen oppfyller kravene i aksjelovens § 6-24.
+Protokollen skal så langt dette er relevant, gi en kort beskrivelse av hva som ble gjennomgått og behandlet i møtet.
+Der det blir fattet vedtak skal protokollen inneholde en kort beskrivelse om prosessen som har ledet til vedtaket. Videre skal vedtaket ha en tydelig formulering som gjør at man i etterkant kan dokumentere hva vedtaket gikk ut på.
+Dersom et styremedlem er inhabil i en sak, skal dette fremkomme i protokollen.
+Dersom det er foretatt beslutninger som ikke er enstemmig, skal det angis i protokollen hvem som har stemt for og imot.
+Styremedlem og daglig leder som ikke er enig i en beslutning, kan kreve sin oppfatning innført i protokollen.
+Protokoll skal være gjort tilgjengelig for styremedlemmene senest syv dager etter avholdt møte.
+Protokollen skal signeres av alle de medlemmer som har deltatt i styrebehandlingen. I tillegg skal daglig leder, og styremedlemmer som ikke deltok i møtet, signere på at protokollen er lest.
+Signert protokoll skal oppbevares i selskapets digitale styreportal.
+Taushetsplikt
+Styremedlemmer er pliktige å sørge for at sensitive opplysninger som de blir kjent med ved utøvelsen av sitt styreverv, ikke blir spredd til uvedkommende.
+Diskusjoner som skjer i styremøter skal alltid behandles konfidensielt såfremt styret ikke har bestemt noe annet.
+Vedtak i styret kan kommuniseres videre med mindre styret har bestemt noe annet i den konkrete saken.
+Styrets flertall kan pålegge taushet for styremedlemmer i konkrete saker som krever særlig konfidensialitet.

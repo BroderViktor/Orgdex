@@ -146,7 +146,7 @@ def StandardTest():
         testResult = ""
         for question in questions:
             testResult += question + "\n"
-            testResult += RunQuery(query=question, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost, k=kNodes) + "\n"
+            testResult += RunQuery(query=question, index=db, mem=memorydata, cb=cb, totalTokenCost=totalTokenCost, k=kNodes) + "\n\n"
             totalTokenCost = cb.total_tokens
         
         usdcost = (cb.total_tokens / 1000) * 0.02
@@ -156,7 +156,7 @@ def StandardTest():
         result.write(testResult)
 
 
-index = "Board25025"
+index = "BoardSchool25025"
 
 i = input("To Load Existing Index Store and start QA enter 1, to change indexstore enter 2, to create new enter 3, to test index enter 4")
 

@@ -1,0 +1,132 @@
+Behandling av styresaker
+
+Behandlingsmåte
+Styrets leder skal sørge for at styret får til behandling de saker som hører under styret. Dette omfatter blant annet saker som etter selskapets forhold er av uvanlig art eller stor betydning. I tillegg kommer saker som loven spesielt krever behandlet i styret, for eksempel å fremme forslag om utdeling av utbytte, jf.aksjeloven § 8-2 (1).
+
+Aksjeloven § 6-19 er den bestemmelsen som hovedsakelig regulerer hvordan en styrebehandling skal gjennomføres. Av lovteksten kan man lese:
+
+§ 6-19. Styrets saksbehandling
+
+(1) Styret skal behandle saker i møte, med mindre styrets leder finner at saken kan forelegges skriftlig eller behandles på annen måte. Behandlingsmåten skal være betryggende
+
+(2) Styrets leder skal sørge for at styremedlemmene så vidt mulig kan delta i en samlet behandling av de saker som blir behandlet. Hvert styremedlem og daglig leder kan kreve at saken blir behandlet i møte. Dersom en sak skal behandles i møte, bestemmer styrets leder møteformen. Mer enn halvdelen av styrets medlemmer kan likevel kreve at møtet blir holdt som fysisk eller elektronisk møte.
+
+(3) Styrebehandlingen ledes av styrelederen. Deltar verken styrelederen eller varalederen, velger styret en leder for styrebehandlingen.
+
+(4) Daglig leder har rett og plikt til å delta i styrets behandling av saker og til å uttale seg, med mindre annet er bestemt av styret i den enkelte sak.
+
+Møteform
+Lovens utgangspunkt er at styret skal behandle saker i møte. Begrepet møte defineres i aksjeloven § 1-5 a. Av lovteksten kan man lese:
+
+§ 1-5 a.Møte
+
+¤Med møte i denne loven menes møte hvor de som deltar enten er fysisk til stede på møtet (fysisk møte), eller deltar ved bruk av elektroniske hjelpemidler (elektronisk møte).
+
+Det vil si at loven likestiller fysisk og elektronisk møte.
+
+Endringen i loven om å likestille fysiske og elektroniske møter kom inn i aksjeloven 1. juni 2021. Formålet er å gjøre møtebegrepet i aksjeloven teknologinøytralt. Hva som ligger i begrepet møte, er ikke definert i loven. Normalt forutsetter møte tidsavgrensning, samtidig deltakelse og mulighet til umiddelbar dialog.
+
+Normalt vil elektronisk deltagelse skje via telefon, videkonferanseløsning eller lignende. Begrepet møte i loven innebærer imidlertid ikke krav til muntlighet. Det vil si at man ved elektroniske møter, kan kommunisere på chat eller annen teknisk løsning, som legger til rette for møte uten muntlighet.
+
+Når det gjelder behandling av saker kun ved sirkulasjon av dokumenter, fremkommer det i forarbeidet til loven at dette faller utenfor lovens definisjon på et møte.
+
+Uavhengig av behandlingsform skal behandlingsmåten være betryggende
+
+Ved behandling i møte, kan det legges opp til at deler av styret møtes fysisk, mens resten deltar elektronisk via telefon, videokonferanse eller lignende. Imidlertid fremkommer det i forarbeidet til loven at styremedlemmene ikke har rett til å delta elektronisk i styrebehandling som styrets leder har besluttet skal gjennomføres i fysisk møte. Imidlertid kan mer enn halvdelen av styrets medlemmer likevel kreve at møtet blir holdt som fysisk eller elektronisk møte.
+
+Styrets leder må være varsom med å kreve at det skal avholdes fysisk møte dersom dette medfører at enkelte styremedlemmer har vanskeligheter med å kunne delta i behandlingen av saken, jf. aksjeloven § 6-24.
+
+Må være betryggende
+Uavhengig av behandlingsform, skal behandlingsmåten være betryggende. Kravet innebærer at behandlingsmåten må sikre forsvarlig saksbehandling i styret.
+
+Behandlingsmåten som skal benyttes, må vurderes konkret i hvert tilfelle av styrets leder, I vurderingen må det blant annet ses hen til eventuelle behov styremedlemmene vil ha for å diskutere seg imellom, både om beslutningsgrunnlaget og vedtakets innhold. Det samme gjelder om sakens karakter tilsier at styremedlemmene ved behandlingen av saken, bør kommunisere direkte med hverandre.
+
+Kravet til betryggende behandlingsmåte innebærer at styrets leder må sørge for at saksbehandlingen er slik at styremedlemmene har praktisk mulighet til å delta. Ved vurderingen av hvilken behandlingsmåte som skal benyttes, fremkommer det i forarbeidet til loven at innspill fra øvrige styremedlemmer skal vektlegges.
+
+Samlet behandling
+Aksjeloven åpner for at saker kan forelegges skriftlig eller behandles på annen måte, men styrets leder må sørge for at styremedlemmene så vidt mulig kan delta i en samlet behandling av de saker som blir behandlet. Dette innebærer at behandlingsformen såvidt mulig bør legges opp slik at hvert enkelt styremedlem gis anledning til å fremføre sin sak overfor de andre styremedlemmene, slik at disse kjenner de andre medlemmenes syn før avgjørelsen treffes.
+
+Styrebehandling uten møte, må selvsagt ikke føre til at enkelte av styremedlemmene holdes unna saksbehandlingen eller ikke får fremmet sine synspunkter. Ved avgjørelsen om det skal legges opp til en behandlingsform hvor ikke alle deltar samtidig, må det blant annet ses hen til sakens karakter.
+
+Styrets flertall kan vedta instruks om behandlingsmåte
+Etteraksjeloven § 6-19 (2), kan mer enn halvdelen av styrets medlemmer likevel kreve at møtet blir holdt som fysisk eller elektronisk møte. I tillegg kan også styrets flertall innskrenke styrets leders myndighet til å bestemme møteform, gjennom å vedta nærmere retningslinjer for styrebehandlingen. Dette kan blant annet være at bestemte saker eller sakstyper skal behandles i fysisk møte.
+
+Selv om styrets flertall kan vedta retningslinjer for styrebehandlingen, må fortsatt lovens krav om betryggende behandlingsmåte, være oppfylt.
+
+Styreportal
+For å kunne gjennomføre elektroniske møter på en betryggende og effektiv måte, bør styret gå til anskaffelse av en styreportal, eller annet verktøy, som gjør at behandlingsmåten er betryggende.
+
+En styreportal er et digitalt samhandlingssystem, utviklet for å håndtere sentrale oppgaver og prosesser relatert til styrets arbeid. Formålet med en styreportal er gjøre styrearbeidet enklere, tryggere, mer oversiktlig – og ikke minst – mer effektivt.
+
+Moderne styreportaler inneholder ofte sentral funksjonalitet som videokonferanse, chat, digital stemmegivning, juridisk veiledning, datarom, elektronisk og en rekke andre funksjoner som gjør styrebehandlingen enklere og sikrere.
+
+Møteleder
+Styrebehandlingen ledes av styrets leder. Deltar verken styrelederen eller varalederen, velger styret en leder for styrebehandlingen. Det vil si at det er styrets leder som normalt har rollen som møteleder ved avholdelse av styremøter.
+
+Rollen som møteleder er viktig, ikke minst fordi møteleder har den avgjørende stemmen ved stemmelikhet, jf. aksjeloven § 6-25 (1). I de tilfeller styrets leder ikke deltar, må styret velge en annen til å lede styrebehandlingen. Valg av annen til å lede styrets behandling bør også skje ved behandling av saker der styrets leder har en særinteresse. Dette gjelder selv om styrets leder ikke er inhabil etter aksjeloven § 6-27.
+
+Møteleder skal sørge for at hver enkelt sak som er til behandling blir tilstrekkelig belyst slik at styret har et tilfredsstillende beslutningsgrunnlag. Orden og struktur i styremøtet er viktig, og det kan derfor være hensiktsmessig å behandle styresaker i tre faser, henholdsvis presentasjon, diskusjon og beslutning.
+
+Ved behandling av styresaker, har møteleder et spesielt ansvar for å bygge en tillitsfull atmosfære der møteleder aktivt søker å få frem forskjellige synspunkter. Dette er viktig, da dette er med på å sikre at alle i styret får mulighet til å bidra med sin erfaring og kompetanse.
+
+Daglig leder
+Daglig leder har både en rett og en plikt til å delta på styrebehandlingen, men styret kan fravike dette i enkeltsaker. Dette vil for eksempel kunne skje i saker der styret skal behandle godtgjørelse til daglig leder eller i andre saker der daglig leder anses inhabil, jf. aksjeloven § 6-27.
+
+Normalt er det daglig leder som både forbereder saker, og presenterer disse, på styremøtet.
+
+Inhabilitet
+Styremedlemmer har normalt plikt til å delta i behandling av alle saker som faller inn under styret. Imidlertid har aksjeloven § 6-27 unntak når et styremedlem er å anse som inhabil i saken.
+
+Formålet med inhabilitetsreglene er å sikre at styret ikke tar utenforliggende hensyn ved styrebehandlingen og etterfølgende vedtak.
+
+Formålet med inhabilitetsreglene er å sikre at styret ikke tar utenforliggende hensyn ved styrebehandlingen, og etterfølgende vedtak. Et styremedlem skal derfor ikke delta i behandling av saker hvor styremedlemmet har slik særinteresse at det er en generell risiko for konflikt mellom styremedlemmets særinteresse og styremedlemmets plikt til å ivareta selskapets interesse. Styret bør derfor sørge for at det blir etablert rutiner der styremedlemmer og ledende ansatte gjør selskapet kjent med vesentlige interessekonflikter de måtte ha. Håndtering av inhabilitet, kommer vi nærmere tilbake til i en egen modul til dette kurset.
+
+Beslutning
+Aksjeloven har en egen bestemmelse som regulerer når et styre kan treffe en beslutning, Fra aksjeloven § 6-24 kan vi lese følgende:
+
+§ 6-24. Når kan styret treffe beslutning
+
+(1) Styret kan treffe beslutning når mer enn halvdelen av medlemmene er til stede eller deltar i styrebehandlingen, om ikke strengere krav er fastsatt i vedtektene.
+
+(2) Styret kan likevel ikke treffe beslutning uten at alle styremedlemmene så vidt mulig er gitt anledning til å delta i behandlingen av saken.
+
+(3) Har noen forfall og det finnes varamedlem, skal varamedlemmet innkalles.
+
+Styret kan altså treffe beslutning når mer enn halvdelen av alle styremedlemmene deltar i styrebehandlingen. For å beregne halvdelen av «alle styremedlemmene» må man se på hvor mange styremedlemmer det skulle ha vært, enten dette er spesifisert i vedtektene eller ut fra generalforsamlingens gjeldende styrevalg. Selv om et eller flere styremedlemmer har trukket seg vil det altså ikke redusere antallet som må være tilstede for å sikre at styret er beslutningsdyktig.
+
+Dersom et styremedlem trekker seg er hovedregelen at resten av styret skal sørge for valg av nytt styremedlem for resten av tjenestetiden, jf. aksjeloven § 6-8. Dersom styret ikke har nok gjenværende medlemmer til å være beslutningsdyktig, og forholdet ikke blir rettet, vil selskapet risikere tvangsoppløsning, jf. aksjeloven § 16-15 (1).
+
+Styret kan likevel ikke treffe beslutning dersom ikke alle styremedlemmene er gitt anledning til å delta i behandlingen. Dette forutsetter blant annet at samtlige styremedlemmer er innkalt, og at man innen rimelige grenser har søkt å finne et behandlingstidspunkt som passer for alle.
+
+Dersom noen har forfall, og selskapet har varamedlemmer, sier tredje ledd at varamedlemmer skal innkalles.
+
+Avstemning
+Ved styrets avstemning, skal vedtak fattes med alminnelig flertall. Samtlige styremedlemmer har stemmerett, med samme stemmevekt. Verken stemmeretten eller stemmevekten kan reguleres i vedtektene, for eksempel ved at enkelte styremedlemmer ikke har stemmerett, eller at styremedlemmenes stemme har forskjellig vekt.
+
+I aksjeloven § 6-25 og § 6-26 kan man lese følgende:
+
+§ 6-25. Alminnelig flertallskrav
+
+(1) En beslutning av styret krever at flertallet av de styremedlemmer som deltar i behandlingen av en sak, har stemt for. Ved stemmelikhet gjelder det som møtelederen har stemt for. De som har stemt for et forslag som innebærer en endring, må likevel alltid utgjøre mer enn en tredel av samtlige styremedlemmer.
+
+(2) Strengere stemmeregler kan fastsettes i vedtektene.
+
+§ 6-26. Flertallskrav ved valg og ansettelser
+
+(1) Ved valg og ansettelser anses den valgt eller ansatt som får flest stemmer. Styret kan på forhånd bestemme at det skal holdes ny avstemning dersom ingen får flertall av de avgitte stemmer.
+
+(2) Står stemmetallet likt ved valg av styreleder eller møteleder, avgjøres valget ved loddtrekning. I andre tilfeller av stemmelikhet gjelder det som møtelederen har stemt for.
+
+(3) Strengere stemmeregler kan fastsettes i vedtektene.
+
+Av aksjeloven § 6-25 (1) kommer det frem at det forslaget som får et flertall av de avgitte stemmene, blir vedtatt. Imidlertid står det i aksjeloven § 6-26 (1) at ved valg og ansettelser er det flest stemmer som gjelder, det vil si relativt flertall. Forskjellen mellom aksjeloven § 6-25 og aksjeloven § 6-26 vil bare være aktuell når det foreligger mer enn to forslag til vedtak.
+
+Det kommer også frem av aksjeloven § 6-25 (1) at ved stemmelikhet gjelder det som møtelederen har stemt for. Normalt er det styrets leder som har rollen som møteleder ved avholdelse av styremøter, jf. aksjeloven § 6-19 (3). I de tilfeller styrets leder ikke deltar på møtet, må styret velge en annen til å lede styrebehandlingen.
+
+Aksjeloven § 6-25 (1) sier også at de som har stemt for et forslag som innebærer en endring, alltid må utgjøre mer enn en tredel av samtlige styremedlemmer. Det vil si at forslag som vil endre den nåværende situasjonen i selskapet, alltid må ha tilslutning fra mer enn en tredel av samtlige styremedlemmer for å bli vedtatt. Med samtlige styremedlemmer siktes det til det antall styremedlemmer som er valgt inn i styret.
+
+Regelen om at møtelederen har avgjørende stemme ved stemmelikhet kan fjernes gjennom vedtektene.
+
+I begge bestemmelsene spesifiseres det at selskapene kan vedtektsbestemme strengere flertallskrav. Det er for eksempel adgang til å kreve kvalifisert flertall eller enstemmighet. Derimot kan flertallskravene ikke fravikes. Regelen om at møtelederen har avgjørende stemme ved stemmelikhet kan fjernes gjennom vedtektene.
+
+Selv om det ikke er noe lovkrav, anbefaler vi at styret ved uenighet, søker å komme frem til enstemmighet, gjennom konstruktiv diskusjon.

@@ -1,0 +1,88 @@
+Erstatningsansvar
+
+Det kan være smigrende å bli spurt om å sitte i et styre, og bare i Norge har mange hundre tusen personer takket ja til et slikt verv. Selv om det for enkelte er innlysende, er det nok mange som takker ja til styreverv uten å være klar over den risikoen som er forbundet med vervet. En av fallgruvene er at enkelte tror at «ikke-profesjonelle» verv – slik som styreverv i barnas idrettslag, eget borettslag eller sin venns lille startup-selskap – ikke medfører særlig ansvar. Dette kan fort føre til at man tar for lett på de oppgavene som følger med vervet. Det burde man absolutt ikke gjøre. Tar du på deg et styreverv følger det med stort ansvar og økonomisk risiko.
+
+Utgangspunktet er at du ved å inneha et styreverv, pådrar deg et ubegrenset personlig ansvar overfor kreditorer, ansatte og andre berørte parter. Det vil si at du som styremedlem hefter med hele din personlige formue (sparepenger, bolig, bil osv.) dersom det skulle oppstå en tvist som ender med en erstatningssak, og tilhørende dom.
+
+Saker relatert til styrets erstatningsansvar, som oftest går igjen hos forsikringsselskaper, er:
+
+styreleder/styremedlem handler utover sine fullmakter
+styret melder oppbud for sent
+manglende oppfølging av daglig leder
+godkjenning av avtaler med nærstående
+inngåelse av generelt ugunstige avtaler
+En gjennomgang av sakene som har vært for retten, viser at domstolene lettere dømmer styremedlemmer dersom det er begått formelle feil (eksempelvis der styret går ut over sine fullmakter), enn der styremedlemmer har tatt for stor risiko ved å være for optimistisk til markedet. Når det er sagt må selskapet uansett ha et realistisk bilde av hva som er mulig å få til i forhold til inntjeningsmuligheter, oppkapitalisering og/eller forbedring av likviditeten.
+
+I aksjeloven § 17-1 som tar for seg erstatningsansvar, står det følgende:
+
+§ 17-1. Erstatningsansvar
+
+(1) Selskapet, aksjeeier eller andre kan kreve at daglig leder, styremedlem, medlem av bedriftsforsamlingen, gransker eller aksjeeier erstatter skade som de i den nevnte egenskap forsettlig eller uaktsomt har voldt vedkommende.
+
+(2) Selskapet, aksjeeier eller andre kan også kreve erstatning av den som forsettlig eller uaktsomt har medvirket til skadevolding som nevnt i første ledd. Erstatning kan kreves av medvirkeren selv om skadevolderen ikke kan holdes ansvarlig fordi han eller hun ikke har utvist forsett eller uaktsomhet.
+
+Daglig leder, medlemmer av styret og bedriftsforsamlingen, aksjeeier og gransker kan bli erstatningsansvarlige om de har forvoldt skade. Også varamedlemmer til styret vil kunne bli erstatningsansvarlige, men dette forutsetter at de har deltatt i beslutningsprosessen som danner grunnlaget for erstatningskravet.
+
+Grunnvilkårene for erstatningsansvar
+For at styremedlemmer skal ha et erstatningsansvar forutsetter det at tre vilkår er oppfylt. For det første må det foreligge et ansvarsgrunnlag. Ansvarsgrunnlaget er den uaktsomme og erstatningsbetingende handlingen og erstatningsbetingende unnlatelse.
+
+Et ansvarsgrunnlag kan stamme fra konkrete beslutninger som er i strid med lovgivningen, eller fravær av en konkret handling som styret burde foretatt seg. Her må det blant annet foretas en vurdering ut fra hva man med rimelighet kan kreve av et alminnelig kompetent styremedlem under tilsvarende omstendigheter. Styremedlemmets handling eller unnlatelse skal dermed sammenlignes med hvordan andre styremedlemmer i alminnelighet ville ha handlet eller unnlatt å handle i samme situasjon. Da man kan forvente at styremedlemmer utfører sine oppgaver i samsvar med gjeldende lovgivning, vedtekter mv., vil det være nærliggende å ta utgangspunkt i at ansvarsgrunnlag vil være oppfylt når det konstateres et brudd på dette.
+
+For at styremedlemmer skal ha et erstatningsansvar forutsetter det at tre vilkår er oppfylt. For det første må det foreligge et ansvarsgrunnlag.
+
+Det andre vilkåret som må være oppfylt for at styremedlemmer skal ha erstatningsansvar, er at det foreligger et økonomisk tap. Andre former for skade kan man ikke få erstatning for.
+
+Et økonomisk tap kan for eksempel oppstå ved at en leverandør ikke får oppgjør i forbindelse med en konkurs. Men dersom det er slik at det økonomiske tapet kan gjenopprettes på annen måte enn erstatning, for eksempel ved tilbakeføring av midler, foreligger det ikke noe økonomisk tap, og heller ikke noe grunnlag for et erstatningskrav.
+
+Det tredje elementet som må foreligge, er at det må være en tilstrekkelig årsakssammenheng mellom ansvarsgrunnlaget og det økonomiske tapet.
+
+Solidaransvar
+Styreansvar er et individuelt ansvar, og det er derfor ikke mulig å holde hele styret som kollegium ansvarlig. Styremedlemmene kan ha hatt ulik befatning med den aktuelle saken, og deres kunnskap om spesifikke forhold vil kunne variere. Når det er sagt, vil det ofte være slik at flere i styret vil rammes om det oppstår en sak.
+
+Dersom flere styremedlemmer kan holdes ansvarlig for samme handling, vil disse styremedlemmene imidlertid hefte solidarisk, jf. skadeserstatningsloven § 5-3 (1). En skadelidt kan derfor velge hvem av de ansvarlige styremedlemmene man vil rette et økonomisk krav mot. Dette innebærer at en saksøker må vurdere et eventuelt ansvar konkret for hvert styremedlem – kanskje delvis ut fra styremedlemmets evne til å betale en erstatning.
+
+Straff
+Styremedlemmer som overtrer bestemmelsen om erstatningsansvar, kan også straffes med bøter eller fengsel i inntil ett år, jf. aksjeloven § 19-1 og aksjeloven § 19-2. Faren for å bli sivilrettslig erstatningspliktig er nok betydelig større enn sjansen for fengselsstraff, i hvert fall for seriøse styremedlemmer.
+
+Forsvarlig egenkapital og tilstrekkelig likviditet
+Plikten til å sørge for en forsvarlig egenkapital og tilstrekkelig likviditet, og styrets handlingsplikt ved lav egenkapital og likviditet, regnes blant de viktigste av styremedlemmenes plikter. Det foreligger en rekke dommer hvor styremedlemmer har blitt idømt erstatningsansvar for brudd på disse bestemmelsene. Rettspraksis tyder på at erstatningsansvar lettere vil foreligge i tilfeller hvor styret har unnlatt å foreta en vurdering av egenkapital- og likviditetssituasjonen til rett tid, enn i tilfeller hvor styret faktisk har foretatt en forsvarlig vurdering av spørsmålet som senere viser seg å være feil.
+
+
+I aksjeloven § 3-4 står det at selskapet til enhver tid skal ha en egenkapital og en likviditet som er forsvarlig. Grensene for forsvarlighet skal vurderes ut fra «risikoen ved og omfanget av virksomheten». Det er i denne forbindelse ikke den bokførte egenkapitalen det siktes til, men den reelle. Dette innebærer at hele selskapets kapitalgrunnlag må vurderes, og forsvarligheten må vurderes ut fra forventet evne til å betjene løpende forpliktelser. En likviditetsprognose vil derfor være en vesentlig rapport når styret skal vurdere hvorvidt egenkapitalen tilfredsstiller lovens krav til forsvarlighet.
+
+Aksjeloven § 3-5 sier at dersom det må antas at egenkapitalen er lavere enn forsvarlig ut fra risikoen ved og omfanget av virksomheten i selskapet, skal styret straks behandle saken. Styret skal innen rimelig tid innkalle generalforsamlingen og gi den en redegjørelse for selskapets økonomiske stilling. Dersom selskapet ikke har en forsvarlig egenkapital i samsvar med aksjeloven § 3-4, skal styret på generalforsamlingen foreslå tiltak for å rette på dette.
+
+GDPR
+Et forhold som også er viktig for styret å være klar over, er ansvaret i forhold til brudd på reglene vedrørende håndtering personopplysninger (GDPR). Mangelfull etterlevelse kan føre til bøter på inntil det høyeste av 4 prosent av omsetningen på verdensbasis eller 20 millioner euro. Dersom selskapet blir ilagt en stor bot, eller blir påført annet økonomisk tap på grunn av manglende oppfølging av GDPR, kan man se for seg at misfornøyde aksjonærer vil kunne hevde at det er styrets manglende oppfølging som er årsaken til at dette har skjedd. Det vil i neste runde kunne lede til at aksjonærene vil kreve å få sitt tap erstattet av de ansvarlige.
+
+Øvrige forhold
+Det er en lang rekke øvrige forhold som kan medføre at styret havner i erstatningsansvar ut fra hvilke type virksomhet det gjelder og hvilke aktiviteter som selskapet gjennomfører, dette kan for eksempel være brudd på hvitvaskingsloven, feilvurderinger i forbindelse utbetaling av utbytte, manglende etterlevelse av kontrakter, samt en rekke andre forhold som oppstår i forbindelse med utøvelse av virksomheten. Dette underbygger viktigheten av at styret tar nødvendige forholdsregler for å sikre seg mot å ikke havne i et erstatningsansvar.
+
+Forholdsregler
+Det er en rekke forholdsregler et styremedlem kan ta for å redusere risikoen for å pådra seg erstatningsansvar, som for eksempel:
+
+Sett av tilstrekkelig tid til å kunne gjøre et tilfredsstillende arbeid. Dersom du ikke har tid bør du ikke påta deg styrevervet.
+Sett deg godt inn i lovgivningen selskapet er underlagt, ikke minst de viktigste bestemmelsene i aksjeloven.
+Sørg for at det blir etablert en instruks for daglig leder der daglig leders fullmakter til å inngå avtaler blir beskrevet. Videre er det også viktig å få på plass en styreinstruks som regulerer styrets arbeid og hvilke saker som styret skal behandle.
+Engasjer deg aktivt i selskapet og vær kritisk til administrasjonen. Det vil si at du må kreve å få løpende informasjon om selskapets drift, økonomi, likviditet, utvikling og potensielle farer. Dersom man mener at man ikke får tilstrekkelig informasjon fra administrasjonen må man benytte sin rett etter aksjeloven til å få behandlet bestemte saker, jf. aksjeloven § 6-20, og kreve at det blir iverksatt undersøkelser jf. aksjeloven § 6-12 (4).
+Der du stemmer mot et styrevedtak, er det viktig å få dette nedfelt i styreprotokollen. Det kan bli vesentlig dersom det på et senere tidspunkt skulle oppstå en erstatningssak i forbindelse med det aktuelle vedtaket.
+Vær særlig oppmerksom på styrets handleplikt ved tap av egenkapital, jf. aksjeloven § 3-5. Dersom styret ikke foretar handlinger i tide, og lar selskapet drive videre mot en senere konkurs, er det betydelig risiko for erstatningsansvar.
+Påse at du som styremedlem først og fremst ivaretar selskapets interesser og ikke særinteresser til enkeltaksjonærer eller andre interessegrupper.
+Det er viktig å unngå situasjoner der det kan stilles spørsmål ved din habilitet.
+Ha høy fokus på datasikkerhet da dette blir en stadig viktigere del av styrets tilsynsoppgaver.
+Styreansvarsforsikring
+Det innebærer et potensielt sett stort ansvar å sitte i styret, men det er mulig å forsikre seg mot et eventuelt erstatningsansvar. Det er en rekke forsikringsselskap som tilbyr styreansvarsforsikring, både norske, nordiske og internasjonale.
+
+En styreansvarsforsikring finnes i mange varianter, og den kan også skreddersys for hvert enkelt selskap. Normalt er det selskapet selv som tegner styreansvarsforsikringen, og ikke det enkelte styremedlem. Kostnadene til å tegne en slik forsikring varierer i forhold til hvilken bransje det gjelder, virksomhetens omfang – og selskapets finansielle soliditet.Det er normalt sett relativt rimelig å tegne denne typen forsikring for små- og mellomstore aksjeselskaper, og dekningen gjelder for hele styret og selskapets ledelse.
+
+For å ikke få noen overraskelser må man lese forsikringsvilkårene grundig slik at man er sikker på at man vet hva som dekkes på forhånd.
+
+En styreansvarsforsikring dekker det erstatningsansvar som det enkelte styremedlem kan bli utsatt for ved utøvelse av styrearbeidet.
+
+En styreansvarsforsikring dekker normalt det erstatningsansvar som det enkelte styremedlem kan bli utsatt for ved utøvelse av styrearbeidet. Ved en rettsprosess dekker forsikringsselskapet kostnadene til juridisk bistand som følger saken, frem til det eventuelt foreligger dom.
+
+Selv om du til slutt vinner saken, kan det være svært kostbart å forsvare seg i flere rettsinstanser – særlig om motparten har dype lommer. De fleste vil nok også finne det ubehagelig å gå gjennom en prosess der de er saksøkt for millionbeløp selv om de mener at de ikke har gjort noe galt. Det er også en risiko for å bli presset til å gå med på et dårlig forlik fordi man ikke har ressurser til å forsvare seg skikkelig. I slike tilfeller vil nok de fleste ha satt pris på å ha med seg et forsikringsselskap som fulgte opp saken, og dekket kostnadene frem til det eventuelt foreligger en dom.
+
+Dersom man taper rettssaken, dekker forsikringen både de kostnadene som har påløpt, og selve kravet såfremt beløpet ikke overstiger en fastsatt maksgrense.
+
+Det er ikke anledning til å tegne forsikring etter at et eventuelt erstatningskrav allerede foreligger, og forsikringsselskapet vil be om en bekreftelse på at forsikringstaker ikke har kjennskap til krav eller til omstendigheter som kan ventes å lede til krav, før de gir tilbud om å tegne forsikring.

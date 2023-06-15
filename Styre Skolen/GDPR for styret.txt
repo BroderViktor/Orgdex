@@ -1,0 +1,90 @@
+GDPR for styret
+
+GDPR står for «General Data Protection Regulation» og er et felles europeisk regelverk som regulerer behandling av personopplysninger. GDPR trådte i kraft i Norge den 20. juli 2018 og består av 99 artikler (regler). I Norge kalles GDPR også for personvernforordningen, der vi i tillegg har en personopplysningslov med nasjonale tilpasninger.
+
+Regelverket gjelder for alle som opererer i EØS-området, eller som tilbyr varer eller tjenester til personer som befinner seg der. Regelverket omfatter opplysninger om samtlige fysiske personer en virksomhet behandler i forbindelse med sin virksomhet, deriblant kunder, ansatte og andre som er i kontakt med selskapet.
+
+Regelverket medfører en skjerpelse i forhold til tidligere lovgiving når det gjelder håndtering av personopplysninger, og brukernes personvern. Et av de viktigste prinsippene regelverket er at det er selskapene som bruker personopplysningene, som har ansvar for at personvernprinsippene overholdes. Dette innebærer at selskapet skal kunne dokumentere at personopplysninger behandles i tråd med personvernprinsippene.
+
+Sentrale lenker relatert til GDPR finner du her:
+
+Personopplysningsloven med norske tilpasninger
+GDPR/personvernforordningen på norsk. Det er først en fortale, så selve forordningen med de 99 artiklene kommer først et godt stykke ned i teksten.
+Offisiell GDPR på engelsk
+Veileder fra Datatilsynet om hvordan lage en databehandleravtale
+Veileder fra Datatilsynet om skillet mellom behandlingsansvarlig og databehandler
+Hva er personopplysninger?
+Artikkel 4 i personvernforordningen definerer personopplysninger. Datatilsynet har også kommet med en beskrivelse som definerer personopplysninger som opplysninger og vurderinger som kan knyttes til en enkeltperson. Det kan altså være slikt som navn, adresse, telefonnummer, e-postadresse, IP-adresse og fingeravtrykk. Opplysninger om atferdsmønstre er også regnet som personopplysninger. Det er i det hele tatt ganske mye som faller inn under begrepet personopplysninger.
+
+Opplysninger om atferdsmønstre er også regnet som personopplysninger.
+
+Sensitive personopplysninger har et sterkere rettsvern enn ordinære personopplysninger. Dette gjelder blant annet opplysninger om politisk, filosofisk eller religiøs oppfatning. Behandling av sensitive personopplysninger vil i de fleste tilfeller kreve særskilt godkjenning. Det er derfor viktig at styret i selskaper som håndterer sensitive personopplysninger, setter seg inn i den særlovgivningen som gjelder.
+
+Behandling av personopplysninger
+Med «behandling» av personopplysninger mener man omtrent enhver befatning med personopplysninger, men det vil typisk være innhenting, lagring og bruk. Å sende en e-post er et eksempel på en behandling. Å lagre telefonnumre i et CRM-system er et annet eksempel. I artikkel 5 i personvernforordningen fremkommer det at reglene for behandling av personopplysninger er bygget på seks grunnleggende prinsipper. Styret er pliktig til å påse at selskapet behandler personopplysninger i samsvar med disse prinsippene.
+
+Lovlighet, rettferdighet og åpenhet. Dette innebærer blant annet at det må finnes et gyldig grunnlag for den behandlingen man ønsker å gjøre.
+Formålsbegrensning. Dette betyr at formålet med behandlingen av personopplysningene må være klart før man innhenter dem, og man kan normalt ikke bruke opplysningene til andre formål. Hvis en person gir selskapet en e-postadresse for å sende en ordrebekreftelse, kan man ikke uten videre bruke e-postadressen til å sende reklame da det er et annet formål, nemlig markedsføring.
+Dataminimering. Dette betyr å begrense mengden innsamlede personopplysninger som innhentes, til det som er nødvendig for å realisere innsamlingsformålet. Hvis formålet ditt er å sende e-post til en person, trenger du ikke hjemmeadresse eller telefonnummer.
+Riktighet. Personopplysninger som behandles skal være korrekte. Opplysningene skal også oppdateres hvis det er nødvendig. Dette betyr at behandlingsansvarlig må sørge for å slette eller rette personopplysninger som er uriktige.
+Lagringsbegrensning. Dette innebærer at personopplysninger skal lagres slik at de slettes eller anonymiseres når de ikke lenger er nødvendige for formålet de ble innhentet for. Har en kontaktperson hos en bedriftskunde sluttet i jobben, trenger ikke selskapet kontaktinformasjon hans lenger.
+Integritet og konfidensialitet. Personopplysninger skal behandles slik at opplysningenes integritet og fortrolighet beskyttes. Eksempler på tiltak som kan etableres for å oppnå dette, er at behandlingen skal ha tiltak mot uautorisert utlevering av og tilgang til personopplysninger.
+Behandlingsgrunnlag
+Personvernforordningens artikkel 6 lister opp seks mulige behandlingsgrunnlag, der fire av disse er mest aktuelle for aksjeselskaper. En virksomhet kan bare behandle opplysninger når minst ett av grunnlagene er oppfylt:
+
+Den registrerte har gitt samtykke til behandlingen.
+Behandlingen er nødvendig for å oppfylle en avtale med den registrerte personen.
+Behandlingen er nødvendig for å overholde en rettslig forpliktelse som påhviler selskapet.
+Selskapet har en berettiget interesse i behandlingen, som er nødvendig, og som er viktigere enn å beskytte personopplysningene for den registrerte.
+De ovennevnte behandlingsgrunnlagene er likestilte. Det er altså ikke slik at for eksempel samtykke er det beste grunnlaget, selv om man hører det av og til. Bedriften må selv vurdere om den har behandlingsgrunnlag i hvert enkelt tilfelle.
+
+De registrertes rettigheter
+Selv om et selskap har gyldig grunnlag for å behandle personopplysninger, så har personer som er registrert av selskapet, en rekke rettigheter, jf. kapittel 3 i personvernforordningen. Blant annet har de registrerte krav på informasjon om hvordan virksomheten behandler personopplysninger. Denne informasjonen skal være lett tilgjengelig og skrevet på en forståelig måte, for eksempel gjennom en personvernerklæring. Dersom en registrert ber om innsyn, skal vedkommende få vite om virksomheten behandler personopplysninger om ham eller henne. Men her finnes det unntak, for eksempel interne dokumenter som selskapet har produsert. Den enkelte har også rett til å ta med seg personopplysningene sine fra én virksomhet til en annen. Dette kalles dataportabilitet.
+
+Dersom opplysningene ikke lenger er nødvendig, kan den registrerte kreve at opplysningene slettes (populært kalt «retten til å bli glemt»). Denne rettigheten er ikke absolutt, noen vilkår må være oppfylt. Har du for eksempel et løpende kundeforhold med en person, kan ikke kunden kreve at bedriften sletter alle opplysninger om vedkommende hvis bedriften fortsatt har behov for opplysningene. En annet forhold som selskaper må tenke på når det gjelder sletting og innsyn, er e-poster med personopplysninger som blir liggende i e-postkassen. Her kan det blant annet bli liggende korrespondanse i personalsaker (for eksempel sykemeldinger og advarsler) som må håndteres etter det nye regelverket.
+
+Databehandleravtale
+Dersom andre skal behandle data for selskapet (for eksempel regnskapsfører), må selskapet inngå en databehandleravtale med vedkommende virksomhet. Selskapet defineres da som «behandlingsansvarlig», mens den som utfører databehandlingen (for eksempel regnskapsfører), defineres som «databehandler». Databehandleren kan ikke behandle personopplysninger på en annen måte enn det som er skriftlig avtalt med selskapet.
+
+Av artikkel 28 i personvernforordningen fremkommer det en rekke krav til innholdet i en databehandleravtale. Datatilsynet har også kommet med en veileder som gir en praktisk innføring i når en virksomhet må inngå en databehandleravtale, og hva som er kravene til innhold i en databehandleravtale. En databehandleravtale skal blant annet beskrive selve behandlingen, den behandlingsansvarliges plikter og rettigheter, samt databehandlerens forpliktelser etter avtalen. Innholdet i databehandleravtalen skal fremkomme på en klar og tydelig måte slik at det er tydelig hva databehandleren kan gjøre med personopplysningene.
+
+Personvernombud
+Et personvernombud er en person som har som oppgave å bidra til at selskapet følger personopplysningsloven. Av artikkel 37 i personvernforordningen kan man lese at personen må utpekes av selskapet på grunnlag av faglige kvalifikasjoner samt evne til å utføre sin oppgave. Personvernombudet trenger ikke å være ansatt i selskapet. Innleide personer kan også benyttes, men hvem som er utpekt til personvernombud, skal i begge tilfeller meldes inn til Datatilsynet.
+
+Ikke alle selskaper er lovpålagt å ha et personvernombud. I artikkel 37 fremkommer det at personvernombud hovedsakelig er pålagt for selskaper med en kjernevirksomhet som består av å behandle data i stort omfang, og der det foregår behandling av sensitiv informasjon. Med mindre det er helt opplagt at et selskap ikke er pålagt å ha ombud, anbefaler Datatilsynet at selskapet dokumenterer de vurderingene som har blitt gjort, dersom det ikke utpekes et personvernombud.
+
+Selv om det ikke er et lovpålagt krav, kan det være hensiktsmessig for styret å pålegge selskapet å utnevne et godt kvalifisert personvernombud. Dette vil gi håndtering av personopplysninger økt oppmerksomhet i organisasjonen. For større selskaper kan det også være hensiktsmessig å sette sammen et helt GDPR-team med representanter fra alle avdelinger som håndterer personopplysninger, for eksempel fra IT, HR og salg.
+
+Avvikshåndtering
+Hvis det oppstår en situasjon som bryter med GDPR-regelverket, skal selskapet uten ugrunnet opphold og når det er mulig, senest 72 timer etter å ha fått kjennskap til det, melde bruddet til Datatilsynet, jf. personvernforordningen artikkel 33. Selskapet er også pliktig til å umiddelbart varsle de fysiske personene som er berørt, dersom det er sannsynlig at bruddet vil medføre en høy risiko for deres personvern, jf. personvernforordningen artikkel 34.
+
+For å kunne håndtere en eventuell avvikssituasjon raskt og effektivt, bør selskapet ha på plass gode rutiner for hvordan en slik situasjon skal håndteres. En slik rutine bør blant annet tydelig angi:
+
+Når det skal rapporteres.
+Hvem som skal rapportere.
+Hvordan det skal rapporteres.
+Konsekvens bruddet har for de berørte.
+Tiltak som er/blir etablert for å begrense konsekvensene.
+Styrets plikter
+Innføring av GDPR medfører skjerpede krav til styret, men det er ikke slik at styret trenger å ha inngående kjennskap til alle detaljene i samtlige 99 artikler. Derimot må det forventes at styret, gjennom sitt forvaltnings- og tilsynsansvar, påser at selskapet har på plass systemer som sikrer at personopplysninger håndteres på en forsvarlig måte. Dette betyr blant annet at styret må sørge for at selskapet har oversikt over hvilke plikter som gjelder i forhold til GDPR, hvordan personopplysninger behandles og sikres, og at alle rutiner knyttet til GDPR er kvalitetssikret og blir fulgt opp av samtlige ansatte. Styret må også forvisse seg om at dokumentasjonen over selskapets internkontroll er gjort tilgjengelig for både de ansatte og Datatilsynet.
+
+For å sikre at GDPR får tilstrekkelig oppmerksomhet, kan styret legge inn i sin instruks til daglig leder at GDPR skal være en obligatorisk del av den periodiske rapporteringen til styret.
+
+For å kunne kontrollere at GDPR får tilstrekkelig oppmerksomhet, er styret avhengig av tydelige og pålitelige oppdateringer fra administrasjonen. Her kan en løsning være at styret legger inn i sin instruks til daglig leder at GDPR skal være en obligatorisk del av den periodiske rapporteringen til styret. En slik rapport kan blant annet inneholde en kortfattet redegjørelse over:
+
+Hvilke personopplysninger selskapet behandler.
+Hvilket behandlingsgrunnlag som ligger til grunn.
+Hvordan selskapet sikrer de registrertes rettigheter.
+Hvem det er som har tilgang til personopplysninger
+Hvordan selskapet sikrer at ingen uvedkommende har tilgang til personopplysningene.
+Bekreftelse på at eventuelle nyansatte har fått tilfredsstillende GDPR-opplæring.
+Hvilke kontrolltiltak som er gjennomført siden forrige rapportering, og hva resultatet av disse kontrollene viser.
+Relevant korrespondanse med Datatilsynet.
+Konsekvenser ved overtredelse
+Det har vært skrevet mye om store bøter ved brudd på GDPR. Av artikkel 83 fremkommer det at mangelfull oppfølging av regelverket kan føre til bøter på inntil det høyeste av 4 prosent av omsetningen på verdensbasis eller 20 millioner euro. Det er Datatilsynet som ilegger overtredelsesgebyr, jf. personopplysningsloven § 26. De høyeste bøtene vil nok først og fremst være aktuelle ved svært grove overtramp av regelverket, men det er ingen tvil om at selskaper er eksponert for sanksjoner av betydelig økonomisk størrelse.
+
+En annen og kanskje vel så viktig risiko man bør ha et bevisst forhold til når det er snakk om GDPR, er risiko for tap av kunder og omdømme hvis bedriften ikke etterlever regelverket. Dette kan fort koste like mye eller mer enn de bøtene som selskapet eventuelt blir ilagt. Selskapene bør derfor innrette seg på at kunder og samarbeidspartnere vil bli mer opptatt av personvern i tiden fremover.
+
+Dersom selskapet blir ilagt en stor bot, eller blir påført annet økonomisk tap på grunn av manglende oppfølging av GDPR, kan man se for seg at misfornøyde aksjonærer vil kunne hevde at det er styrets manglende oppfølging som er årsaken til at dette har skjedd. Det vil i neste runde kunne lede til at aksjonærene vil kreve å få dekket sitt tap av de ansvarlige, jf. aksjeloven § 17-1.
+
+Oppsummering

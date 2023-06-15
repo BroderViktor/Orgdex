@@ -1,0 +1,53 @@
+Inhabilitet
+
+Styremedlemmer har normalt plikt til å delta i behandling av alle saker som faller inn under styret. Imidlertid har aksjeloven unntak når et styremedlem er å anse som inhabil, det vil si at det foreligger omstendigheter som gir grunn til å ha svekket tillit til at et styremedlem er upartisk i en sak. I aksjeloven § 6-27om inhabilitet står det følgende:
+
+§ 6-27. Inhabilitet
+
+(1) Et styremedlem må ikke delta i behandlingen eller avgjørelsen av spørsmål som har slik særlig betydning for egen del eller for noen nærstående at medlemmet må anses for å ha fremtredende personlig eller økonomisk særinteresse i saken. Det samme gjelder for daglig leder.
+
+(2) Et styremedlem eller daglig leder må heller ikke delta i en sak om lån eller annen kreditt til seg selv eller om sikkerhetsstillelse for egen gjeld.
+
+Formålet med inhabilitetsreglene er å sikre at styret ikke tar utenforliggende hensyn ved styrebehandlingen og etterfølgende vedtak. Et styremedlem skal derfor ikke delta i behandling av saker hvor styremedlemmet har en særinteresse som medfører at det er en risiko for konflikt mellom styremedlemmets særinteresse og styremedlemmets plikt til å ivareta selskapets interesse.
+
+Inhabilitetsreglene må ses i sammenheng med andre regler i aksjeloven som også har til hensikt å sikre at styret ivaretar selskapets interesser fremfor styremedlemmenes personlige interesser. Dette gjelder blant annet aksjeloven § 3-8 om transaksjoner mellom nærstående, aksjeloven § 6-17 som sier at styret (og ansatte) ikke kan motta godtgjørelse fra tredjeparter i forbindelse med sitt arbeid for selskapet, og aksjeloven § 6-28 som tar for seg misbruk av posisjon i selskapet.
+
+Særinteresse
+Et styremedlem anses som inhabil i forhold til aksjeloven § 6-27 (1) når det foreligger en særinteresse i saken som skal behandles eller avgjøres. Det vil si at vedkommende har en spesiell interesse utover sitt virke som styremedlem som er i potensiell konflikt med selskapets interesse. Dette kan for eksempel oppstå der styremedlemmet er part i en avtale som selskapet skal inngå.
+
+For at en særinteresse skal kunne medføre inhabilitet, må særinteressen være fremtredende.
+
+For at en særinteresse skal kunne medføre inhabilitet, må særinteressen være fremtredende, det vil si at den er av en slik karakter at den er egnet til å virke motiverende på styremedlemmets standpunkt i en konkret sak. Særinteressens styrke må vurderes opp mot risikoen for at styremedlemmet ikke vil ivareta de interessene vedkommende er satt til å ivareta i egenskap av styremedlem. Jo viktigere saken er for selskapet, desto mindre skal til for at inhabilitet foreligger.
+
+Det er kun særinteresser av økonomisk eller personlig art som er omfattet, jf. aksjeloven § 6-27 (1). Personlig interesse kan være et relativt vidt begrep og kan omfatte mye, som for eksempel inngåelse av avtaler med nære venner eller godkjenning av egen aksjeoverdragelse, jf. aksjeloven § 4-16 (1). Økonomisk særinteresse vil typisk være tilfeller hvor styrevedtak medfører en økonomisk fordel eller ulempe for enkelte styremedlemmer.
+
+Det er noen tilfeller der man kan tenke seg at det eksisterer særinteresser, men der inhabilitetsreglene ikke kommer til anvendelse:
+
+I situasjoner der et selskap kun har én aksjonær, vil det ikke være aktuelt med habilitetsspørsmål i forbindelse med transaksjoner mellom aksjonær og selskap, selv om aksjonæren er styremedlem eller daglig leder. Dette gjør det enklere å ha felles styremedlemmer i konsern. (Det er verdt å nevne at styret i selskap med en eneeier har et spesielt ansvar for å sikre at alle avtaler mellom selskapet og aksjeeieren skal være skriftlige, jf. aksjeloven § 6-13 (3).)
+Ansattevalgte representanter vil normalt ikke anses som inhabile i saker som gjelder de ansattes forhold, da mye av å ha poenget med å ansattevalgte representanter er for å få de ansattes perspektiv inn i styrerommet. Det ville fungert dårlig dersom de til enhver tid ble ansett som inhabile. Men her finnes det gråsoner: Justisdepartementets lovavdeling har for eksempel uttalt at et styremedlem som er medlem av de ansattes lønnsforhandlingsutvalg vil kunne være inhabil når styret skal vedta selskapets opplegg for lønnsforhandlingene inkludert rammen for lønnstilleggene.
+En mer generell interesse som styremedlemmet deler med en stor gruppe personer eller organisasjoner, regnes ikke som en særinteresse, og fører derfor ikke til inhabilitet.
+Nærstående
+Aksjeloven § 6-27 (1) sier at et styremedlem kan være inhabil hvis saken har særlig betydning for styremedlemmets nærstående. Som nærstående omfattes blant annet ektefelle og samboer, foreldre, barn og søsken (jf. aksjeloven § 1-5) eller selskaper der styremedlemmet eller styremedlemmets nærstående har bestemmende innflytelse (jf. aksjeloven § 1-3).
+
+Når en sak har særlig betydning for en nærstående, er det fremdeles avgjørende for inhabilitet om dette fører til at styremedlemmet anses å ha en fremtredende personlig eller økonomisk særinteresse i saken. At styremedlemmets nærstående har en fremtredende særinteresse, er ikke alene avgjørende for inhabilitetsspørsmålet.
+
+Lån og kreditt
+Habilitetsbestemmelsen i aksjeloven § 6-27 (2) sier at et styremedlem, eller daglig leder, ikke må delta i en sak om lån eller annen kreditt til seg selv eller sikkerhetsstillelse for egen gjeld.
+
+Hvorvidt et styremedlem, en observatør eller daglig leder i andre tilfeller enn de som direkte omfattes av bestemmelsen, kan delta i behandlingen og avgjørelsen av spørsmålet, må avgjøres etter den alminnelige inhabilitetsregelen i første ledd. Se for øvrig også aksjeloven §§ 8-7 til 8-11 som omhandler kreditt og sikkerhetsstillelse.
+
+Behandling av inhabilitet
+Aksjeloven har ingen regler som beskriver hvordan inhabilitetsspørsmål skal behandles rent praktisk, men ethvert styremedlem har en selvstendig plikt til å passe på sin egen situasjon og meddele styret dersom inhabilitet kan være aktuelt. Styret bør uansett sørge for at det er utarbeidet klare rutiner som pålegger styremedlemmer å gjøre selskapet kjent med vesentlige interessekonflikter de måtte ha.
+
+Under behandling av saken bør den som kan være inhabil, forlate styrerommet.
+
+Det er ulik praksis på hvordan styrene håndterer spørsmål relatert til inhabilitet, men i likhet med andre saker, er det styret som kollegium som må ta stilling til om et styremedlem er inhabilt til å delta i styrebehandlingen.
+
+Den som kan være inhabil, bør normalt ikke delta i diskusjoner om egen habilitet eller være med i avgjørelsen av om det foreligger inhabilitet.
+
+Under behandling av saken bør den som kan være inhabil, forlate styrerommet.
+
+Konsekvenser ved brudd
+Dersom et styremedlem deltar i behandlingen av en sak der vedkommende skulle ha fratrådt på grunn av inhabilitet, kan dette betraktes som en saksbehandlingsfeil. Beslutningen blir imidlertid ikke uten videre kjent ugyldig. For at det skal skje må det inhabile styremedlemmets deltakelse ha hatt betydning for vedtaket. Dersom så er tilfelle, vil dette innebære at beslutningen er å betrakte som ikke vedtatt.
+
+Dersom beslutningen leder til et økonomisk tap for tredjepart, kan dette betraktes som forsettlig eller uaktsom opptreden som kan medføre at styremedlemmet blir holdt økonomisk ansvarlig etter aksjeloven § 17-1, eller etter alminnelige erstatningsregler. Dette forutsetter imidlertid at det foreligger en årsakssammenheng mellom styremedlemmets opptreden og det tap tredjepart er påført. I svært alvorlige tilfeller kan overtredelse også medføre straffeansvar jf. aksjeloven § 19-1 (1).

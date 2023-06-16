@@ -81,7 +81,7 @@ Question:
 {question}
 
 If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
-Always answer in the same language that the question was asked in
+Svar på spørsmålet på norsk
 """
 PROMPT = PromptTemplate(
     template=prompt_template, input_variables=["context", "history", "question"]
@@ -89,7 +89,7 @@ PROMPT = PromptTemplate(
 defaultChain = LLMChain(llm=openai, prompt=PROMPT)
 
 db_search_promt = """
-Extract notable keywords from the input to search a vector database
+Extract notable keywords from the input to search a vector database, limit the amount of words between 1 - 5
 Input:
 {input}
 """
@@ -152,7 +152,16 @@ def StandardTest():
         usdcost = (cb.total_tokens / 1000) * 0.02
         cost = f"Antall tokens i samtale: {cb.total_tokens}, dette kostet total (NOK): kr {round(usdcost * 10.59, 4)}"
         testResult += cost
-        result = open("Test Results " + index + " nodes " + str(kNodes), "w")
+        
+        notSaved = True
+        saveIndex = 0
+        while notSaved:
+            saveFile = "Test Results " + str(saveIndex) + " " + index + " nodes " + str(kNodes)
+            if (not os.path.exists(saveFile)):
+                result = open(saveFile, "w")
+                notSaved = False
+            saveIndex += 1
+
         result.write(testResult)
 
 

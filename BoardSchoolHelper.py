@@ -18,7 +18,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks import get_openai_callback
-
+import re
 keys = open("Keys.txt", "r").read().split("\n")
 os.environ["OPENAI_API_KEY"] = keys[0]
 openai_curie = OpenAI(temperature=0.75)
@@ -64,6 +64,10 @@ def AddFolderPath(path):
         documents = loader.load()
         docs.extend(text_splitter.split_documents(documents))
     
+    for doc in docs:
+        sourceName = str(doc.metadata["source"])
+        doc.metadata["source"] = "Kurs om " + str(re.split("/|\\.", sourceName)[1])
+        
     return docs
 
 #Defines the chain that will answer questions
@@ -83,8 +87,44 @@ Question:
 If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
 Svar på spørsmålet på norsk
 """
+prompt2 = """
+The board school is a course about boards and how to manage them, 
+you are an AI assistant tasked to answer questions concerning the board school and general questions about board work
+Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question.
+
+Previous interactions, only use this if its relevant to the question: 
+{history}
+
+You get access to the following documents that are related to the topic: 
+{context}
+
+Question: 
+{question}
+
+If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
+Svar på spørsmålet på norsk
+"""
+prompt3 = """
+The board school is a course about boards and how to manage them, 
+you are an AI assistant tasked to answer questions concerning the board school and general questions about board work
+Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question.
+
+Chat history (use only if necessary): 
+{history}
+
+Context data (documents from board school): 
+{context}
+
+Question: 
+{question}
+
+If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
+Svar på spørsmålet på norsk
+"""
+
+
 PROMPT = PromptTemplate(
-    template=prompt_template, input_variables=["context", "history", "question"]
+    template=prompt3, input_variables=["context", "history", "question"]
 )
 defaultChain = LLMChain(llm=openai, prompt=PROMPT)
 
@@ -180,7 +220,8 @@ elif (i == '2'):
     elif (i == '2'):
         docs = AddFilePath()
     elif (i == '3'): 
-        docs = AddFolderPath()
+        docs = AddFolderPath(input("path"))
+        exit()
     db.add_documents(docs)
 elif (i == '3'):
     new_path = input("Name for new index store")

@@ -28,7 +28,7 @@ embedding = OpenAIEmbeddings()
 
 chunksize = 250
 chunkoverlap = 25
-kNodes = 4
+kNodes = 5
 
 db = 0
 
@@ -104,7 +104,7 @@ Question:
 If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
 Svar på spørsmålet på norsk
 """
-prompt3 = """
+prompt_best = """
 The board school is a course about boards and how to manage them, 
 you are an AI assistant tasked to answer questions concerning the board school and general questions about board work
 Use the following pieces of context to answer the question at the end, provide an full answer that is very relevant to the question.
@@ -121,17 +121,35 @@ Question:
 If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
 Svar på spørsmålet på norsk
 """
+prompt_test = """
+The board school is a course about boards and how to manage them, 
+you are an AI assistant tasked to answer questions concerning the board school and general questions about board work
+Use the following pieces of context to answer the question at the end, provide an full thoughout answer that is very relevant to the question.
 
+Chat history (use only if necessary): 
+{history}
+
+Board School data (documents from board school): 
+{context}
+
+Question: 
+{question}
+
+If you don't know the answer to the question, just say that you don't know, don't try to make up an answer.
+Svar på spørsmålet på norsk
+"""
 
 PROMPT = PromptTemplate(
-    template=prompt3, input_variables=["context", "history", "question"]
+    template=prompt_test, input_variables=["context", "history", "question"]
 )
+
 defaultChain = LLMChain(llm=openai, prompt=PROMPT)
 
 db_search_promt = """
-Extract notable keywords from the input to search a vector database, limit the amount of words between 1 - 5
+Extract the most important keywords from the input query, limit the amount of words between 1 - 5
 Input:
 {input}
+Output should only be the keywords nothing else:
 """
 SEARCH_PROMT = PromptTemplate(
     template=db_search_promt, input_variables=["input"]
@@ -145,10 +163,11 @@ def RunQuery(query, index, mem, cb, totalTokenCost, k):
     keywords = search_chain.run({"input": query})
     print("keyword query: " + keywords)
     topicdata = index.similarity_search(keywords, k)
+    
     print(topicdata)
 
-    topicOut = open("topic.txt", "w", encoding="utf-8")
-    topicOut.write(str(topicdata))
+    #topicOut = open("topic.txt", "w", encoding="utf-8")
+    #topicOut.write(str(topicdata))
 
     result = defaultChain.run({"context": topicdata, "history": mem.load_memory_variables({}), "question": query})
     

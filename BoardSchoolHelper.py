@@ -215,7 +215,7 @@ def StandardTest():
         notSaved = True
         saveIndex = 0
         while notSaved:
-            saveFile = "Test Results " + str(saveIndex) + " " + index + " nodes " + str(kNodes)
+            saveFile = "Test Results " + str(saveIndex) + " " + index + " nodes " + str(kNodes) + ".md"
             if (not os.path.exists(saveFile)):
                 result = open(saveFile, "w")
                 notSaved = False
